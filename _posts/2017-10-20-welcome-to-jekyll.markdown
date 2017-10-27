@@ -4,7 +4,7 @@ title:  "Welcome to Jekyll!"
 date:   1396-07-27 16:46:42 +0330
 jdate: جمعه 28 مهر 1396
 categories: articles
-permalink: /:categories/:title.html
+#  permalink: /:categories/:title.html
 thumbnail:
 ---
 <pre><code class="language-js line-numbers">

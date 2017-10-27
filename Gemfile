@@ -26,6 +26,7 @@ group :jekyll_plugins do
    gem 'mini_magick'
    gem "jekyll-minimagick"
    gem 'jekyll-jalali'
+   gem 'jekyll-paginate'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

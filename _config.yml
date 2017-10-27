@@ -37,6 +37,7 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-jalali
+  - jekyll-paginate
 sass:
   style: compressed
 gems:
@@ -47,6 +48,7 @@ gems:
   - mini_magick
   - jekyll-minimagick
   - jekyll-jalali
+  - jekyll-paginate
 
 exclude:
   - Gemfile
@@ -62,7 +64,8 @@ social:
     - https://github.com/farhadmirzapour
 
 logo: /assets/img/logo/blankspace-avatar.png
-
+paginate: 2
+paginate_path: "/blog/page:num/"
 twitter:
   username: farhadmirzapour
 #End
