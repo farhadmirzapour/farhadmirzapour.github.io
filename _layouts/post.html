@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <h2 itemprop="name headline" >{{ page.title | escape }}</h2>
+    <p class="meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+            <br>
+            تاریخ :      {{ page.jdate}}
+        </time>
+
+        {% if page.author %}
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+        {% endif %}
+    </p>
+  </header>
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+</article>
+{% include deeplink.html %}

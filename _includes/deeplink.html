@@ -1,0 +1,25 @@
+<script src="{{ '/assets/js/anchor.min.js' | relative_url }}"></script>
+<script>
+    anchors.options = {
+        placement: 'left',
+        visible: 'always',
+//        icon: '#',
+    };
+    anchors.add('h2, h3, h4, h5, h6');
+
+    (function($){
+        if(window.location.hash) {
+            var hash = decodeURIComponent(window.location.hash.substr(1));
+            gotohash($('a[href="#' + hash + '"]').offset().top);
+        }
+        $('a.anchorjs-link').click(function(){
+            gotohash($(this).offset().top);
+        });
+        function gotohash(top){
+            var headerHeight = 70; // Get fixed header height
+            $('html,body').animate({
+                scrollTop: top - headerHeight
+            }, 20);
+        }
+    })(jQuery);
+</script>

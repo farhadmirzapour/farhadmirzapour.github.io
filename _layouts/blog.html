@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<article class="post">
+<div class="box">
+    <div class="">
+        <h2 class="title">لیست مقالات</h2>
+    </div>
+
+    <div class="box_section">
+        {% for post in site.posts %}
+        <div class="box_section-item" itemscope itemtype="http://schema.org/Product" data-course-id="53" id="course_53">
+            <div class="item_img">
+                <a href="/series/master-reactjs">
+                    {% if post.thumbnail %}
+                    <img src="/images/thumbnail/{{post.thumbnail}}" alt="{{post.title}}" />
+                    {% endif %}
+                </a>
+                <span class="box-status">دسته: php</span>
+            </div>
+            <div class="item_content">
+                <h6 class="title">
+                    <a itemprop="url" href="{{ post.url | relative_url }}" title="{{ post.title | escape }}" role="link"><span itemprop="name">{{ post.title | escape }}</span> </a>
+                </h6>
+                <p class="description" itemprop="description">
+                    {{ post.content | strip_html | escape | truncatewords: 30 }}
+                </p>
+            </div>
+            <div class="item_footer">
+                <span class="course_time">{{ post.jdate }} <i class="fa fa-clock-o" aria-hidden="true"></i></span>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+</article>
