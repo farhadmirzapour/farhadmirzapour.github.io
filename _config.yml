@@ -32,21 +32,21 @@ kramdown:
   hard_wrap: false
 
 
-plugins:
-  - jekyll-feed
-  - jekyll-jalali
-  - jekyll-paginate
+#plugins:
+#  - jekyll-feed
+#  - jekyll-jalali
+#  - jekyll-paginate
 sass:
   style: compressed
-gems:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-avatar
-  - mini_magick
-  - jekyll-minimagick
-  - jekyll-jalali
-  - jekyll-paginate
+#gems:
+#  - jekyll-feed
+#  - jekyll-seo-tag
+#  - jekyll-sitemap
+#  - jekyll-avatar
+#  - mini_magick
+#  - jekyll-minimagick
+#  - jekyll-jalali
+#  - jekyll-paginate
 
 exclude:
   - Gemfile

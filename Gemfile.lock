@@ -36,6 +36,7 @@ GEM
       jekyll (~> 3.3)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
+    json (2.1.0)
     kramdown (1.15.0)
     liquid (4.0.0)
     listen (3.0.8)
@@ -63,6 +64,7 @@ GEM
       thread_safe (~> 0.1)
     tzinfo-data (1.2017.3)
       tzinfo (>= 1.0.0)
+    wdm (0.1.1)
 
 PLATFORMS
   x64-mingw32
@@ -76,9 +78,11 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-seo-tag
   jekyll-sitemap
+  json (>= 2.0.0)
   mini_magick
   minima (~> 2.0)
   tzinfo-data
+  wdm (>= 0.1.0)
 
 BUNDLED WITH
-   1.15.4
+   1.16.0.pre.3
