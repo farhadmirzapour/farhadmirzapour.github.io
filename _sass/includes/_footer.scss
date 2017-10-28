@@ -3,11 +3,12 @@
  */
 
 .footer {
+  direction: ltr;
   background-color: $text-color;
   padding-top: $footer-padding;
   padding-bottom: $footer-padding;
   .avatar {
-    background-image: url($baseurl + "/assets/img/logo/blankspace-avatar.png");
+    background-image: url($baseurl + "/assets/img/logo/farhadmirzapour-avatar.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: $footer-avatar-size;

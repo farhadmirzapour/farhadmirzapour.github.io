@@ -19,34 +19,28 @@ description: >- # this means to ignore newlines until "baseurl:"
  مجموعه مقالات و مطالب آموزشی وب - گرداوری توسط فرهاد میرزاپور
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: farhadmirzapour
+github_username:  farhadmirzapour
 
 # Build settings
 markdown: kramdown
 highlighter: rouge
 theme: minima
-
+logo: /assets/img/logo/farhadmirzapour-logo.png
 kramdown:
   input: GFM
   hard_wrap: false
 
-
 plugins:
-  - jekyll-feed
-  - jekyll-jalali
-  - jekyll-paginate
-sass:
-  style: compressed
-gems:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-avatar
   - mini_magick
   - jekyll-minimagick
-  - jekyll-jalali
   - jekyll-paginate
+sass:
+  style: compressed
 
 exclude:
   - Gemfile
