@@ -3,7 +3,6 @@
  */
 
 .box {
-  font-family:IRANSans;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -226,7 +225,7 @@
   line-height: 1.6
 }
 
-.box .box_section .box_section-item .item_content .title:hover a {
+.box .box_section .box_section-item  .title:hover a {
   color: #555
 }
 
@@ -235,7 +234,7 @@
   margin-top: 0;
   font-size: .75em;
   opacity: .7;
-  line-height: 1.7
+  line-height: 1.7;
 }
 
 .box .box_section .box_section-item .item_footer {
