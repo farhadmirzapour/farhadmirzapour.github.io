@@ -2,38 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e64ae264-382d-40a9-aa7a-eb57cef08f24" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/android-icon-144x144.png" afterPath="$PROJECT_DIR$/assets/img/favicon/android-icon-144x144.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/android-icon-192x192.png" afterPath="$PROJECT_DIR$/assets/img/favicon/android-icon-192x192.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/android-icon-36x36.png" afterPath="$PROJECT_DIR$/assets/img/favicon/android-icon-36x36.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/android-icon-48x48.png" afterPath="$PROJECT_DIR$/assets/img/favicon/android-icon-48x48.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/android-icon-72x72.png" afterPath="$PROJECT_DIR$/assets/img/favicon/android-icon-72x72.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/android-icon-96x96.png" afterPath="$PROJECT_DIR$/assets/img/favicon/android-icon-96x96.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/apple-icon-114x114.png" afterPath="$PROJECT_DIR$/assets/img/favicon/apple-icon-114x114.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/apple-icon-120x120.png" afterPath="$PROJECT_DIR$/assets/img/favicon/apple-icon-120x120.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/apple-icon-144x144.png" afterPath="$PROJECT_DIR$/assets/img/favicon/apple-icon-144x144.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/apple-icon-152x152.png" afterPath="$PROJECT_DIR$/assets/img/favicon/apple-icon-152x152.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/apple-icon-180x180.png" afterPath="$PROJECT_DIR$/assets/img/favicon/apple-icon-180x180.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/apple-icon-57x57.png" afterPath="$PROJECT_DIR$/assets/img/favicon/apple-icon-57x57.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/apple-icon-60x60.png" afterPath="$PROJECT_DIR$/assets/img/favicon/apple-icon-60x60.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/apple-icon-72x72.png" afterPath="$PROJECT_DIR$/assets/img/favicon/apple-icon-72x72.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/apple-icon-76x76.png" afterPath="$PROJECT_DIR$/assets/img/favicon/apple-icon-76x76.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/apple-icon-precomposed.png" afterPath="$PROJECT_DIR$/assets/img/favicon/apple-icon-precomposed.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/apple-icon.png" afterPath="$PROJECT_DIR$/assets/img/favicon/apple-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/favicon-16x16.png" afterPath="$PROJECT_DIR$/assets/img/favicon/favicon-16x16.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/favicon-32x32.png" afterPath="$PROJECT_DIR$/assets/img/favicon/favicon-32x32.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/favicon-96x96.png" afterPath="$PROJECT_DIR$/assets/img/favicon/favicon-96x96.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/ms-icon-144x144.png" afterPath="$PROJECT_DIR$/assets/img/favicon/ms-icon-144x144.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/ms-icon-150x150.png" afterPath="$PROJECT_DIR$/assets/img/favicon/ms-icon-150x150.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/ms-icon-310x310.png" afterPath="$PROJECT_DIR$/assets/img/favicon/ms-icon-310x310.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/ms-icon-70x70.png" afterPath="$PROJECT_DIR$/assets/img/favicon/ms-icon-70x70.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/intro-bg.jpg" afterPath="$PROJECT_DIR$/assets/img/intro-bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/logo/MvvmCross-404.png" afterPath="$PROJECT_DIR$/assets/img/logo/MvvmCross-404.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/logo/MvvmCross-avatar.png" afterPath="$PROJECT_DIR$/assets/img/logo/MvvmCross-avatar.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/logo/farhadmirzapour-avatar.png" afterPath="$PROJECT_DIR$/assets/img/logo/farhadmirzapour-avatar.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/logo/farhadmirzapour-logo.png" afterPath="$PROJECT_DIR$/assets/img/logo/farhadmirzapour-logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/posts/psr/827gitta_web_ir_PSR-1-big.jpg" afterPath="$PROJECT_DIR$/assets/img/posts/psr/827gitta_web_ir_PSR-1-big.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="$PROJECT_DIR$/_includes/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/layouts/_blog.scss" afterPath="$PROJECT_DIR$/_sass/layouts/_blog.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/scripts.html" afterPath="$PROJECT_DIR$/_includes/scripts.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,11 +17,76 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="head.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="head.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/head.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="107" lean-forward="false" selection-start-line="7" selection-start-column="107" selection-end-line="7" selection-end-column="107" />
+            <state relative-caret-position="340">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/blog.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-340">
+              <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+              <folding>
+                <element signature="e#1568#1575#0" expanded="true" />
+                <element signature="e#1610#1617#0" expanded="true" />
+                <element signature="e#2191#2198#0" expanded="true" />
+                <element signature="e#2233#2240#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deeplink.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_includes/deeplink.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-280">
+              <caret line="7" column="78" lean-forward="false" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scripts.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/scripts.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -62,16 +97,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="361">
               <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mvxtheme.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_sass/mvxtheme.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -144,7 +169,6 @@
         <option value="$PROJECT_DIR$/_sass/layouts/_home.scss" />
         <option value="$PROJECT_DIR$/assets/js/back-to-top.js" />
         <option value="$PROJECT_DIR$/_sass/includes/_header.scss" />
-        <option value="$PROJECT_DIR$/_includes/scripts.html" />
         <option value="$PROJECT_DIR$/assets/anchor-js/anchor.min.js" />
         <option value="$PROJECT_DIR$/_includes/deeplink.html" />
         <option value="$PROJECT_DIR$/_layouts/home.html" />
@@ -178,6 +202,7 @@
         <option value="$PROJECT_DIR$/_sass/layouts/_post.scss" />
         <option value="$PROJECT_DIR$/_sass/layouts/_blog.scss" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
+        <option value="$PROJECT_DIR$/_includes/scripts.html" />
       </list>
     </option>
   </component>
@@ -214,11 +239,6 @@
             <path>
               <item name="farhad-weblog" type="b2602c69:ProjectViewProjectNode" />
               <item name="farhad-weblog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="farhad-weblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="farhad-weblog" type="462c0819:PsiDirectoryNode" />
-              <item name="_includes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -280,18 +300,17 @@
       <workItem from="1509079186440" duration="17033000" />
       <workItem from="1509104616420" duration="2146000" />
       <workItem from="1509122115045" duration="9198000" />
-      <workItem from="1509197759307" duration="13583000" />
+      <workItem from="1509197759307" duration="14335000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79708000" />
+    <option name="totallyTimeSpent" value="80460000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="0" width="1346" height="688" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25688073" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25688073" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -440,13 +459,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/anchor-js/anchor.min.js" />
-    <entry file="file://$PROJECT_DIR$/_includes/deeplink.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="9" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -514,24 +526,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_site/blog/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4223">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-340">
-          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -599,14 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/scripts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -688,14 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_sass/layouts/_page-not-found.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -708,14 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
           <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-40">
-          <caret line="7" column="78" lean-forward="false" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
           <folding />
         </state>
       </provider>
@@ -767,8 +741,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/head.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="107" lean-forward="false" selection-start-line="7" selection-start-column="107" selection-end-line="7" selection-end-column="107" />
+        <state relative-caret-position="340">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-280">
+          <caret line="7" column="78" lean-forward="false" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/scripts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340">
+          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <folding>
+            <element signature="e#1568#1575#0" expanded="true" />
+            <element signature="e#1610#1617#0" expanded="true" />
+            <element signature="e#2191#2198#0" expanded="true" />
+            <element signature="e#2233#2240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/deeplink.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding />
         </state>
       </provider>
