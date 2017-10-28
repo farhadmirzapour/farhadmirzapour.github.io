@@ -2,31 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e64ae264-382d-40a9-aa7a-eb57cef08f24" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/IRANSansWeb.eot" afterPath="$PROJECT_DIR$/assets/fonts/IRANSansWeb.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/IRANSansWeb.ttf" afterPath="$PROJECT_DIR$/assets/fonts/IRANSansWeb.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/IRANSansWeb.woff" afterPath="$PROJECT_DIR$/assets/fonts/IRANSansWeb.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/IRANSansWeb.woff2" afterPath="$PROJECT_DIR$/assets/fonts/IRANSansWeb.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_Bold (1).eot" afterPath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_Bold (1).eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_Bold.eot" afterPath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_Bold.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_Bold.ttf" afterPath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_Bold.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_Bold.woff" afterPath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_Bold.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_Bold.woff2" afterPath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_Bold.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_Light.eot" afterPath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_Light.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_Light.ttf" afterPath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_Light.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_Light.woff" afterPath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_Light.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_Light.woff2" afterPath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_Light.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_Medium.eot" afterPath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_Medium.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_Medium.ttf" afterPath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_Medium.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_Medium.woff" afterPath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_Medium.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_Medium.woff2" afterPath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_Medium.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_UltraLight.eot" afterPath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_UltraLight.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_UltraLight.ttf" afterPath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_UltraLight.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_UltraLight.woff2" afterPath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_UltraLight.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/android-icon-144x144.png" afterPath="$PROJECT_DIR$/assets/img/favicon/android-icon-144x144.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/android-icon-192x192.png" afterPath="$PROJECT_DIR$/assets/img/favicon/android-icon-192x192.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/android-icon-36x36.png" afterPath="$PROJECT_DIR$/assets/img/favicon/android-icon-36x36.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/android-icon-48x48.png" afterPath="$PROJECT_DIR$/assets/img/favicon/android-icon-48x48.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/android-icon-72x72.png" afterPath="$PROJECT_DIR$/assets/img/favicon/android-icon-72x72.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/android-icon-96x96.png" afterPath="$PROJECT_DIR$/assets/img/favicon/android-icon-96x96.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/apple-icon-114x114.png" afterPath="$PROJECT_DIR$/assets/img/favicon/apple-icon-114x114.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/apple-icon-120x120.png" afterPath="$PROJECT_DIR$/assets/img/favicon/apple-icon-120x120.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/apple-icon-144x144.png" afterPath="$PROJECT_DIR$/assets/img/favicon/apple-icon-144x144.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/apple-icon-152x152.png" afterPath="$PROJECT_DIR$/assets/img/favicon/apple-icon-152x152.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/apple-icon-180x180.png" afterPath="$PROJECT_DIR$/assets/img/favicon/apple-icon-180x180.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/apple-icon-57x57.png" afterPath="$PROJECT_DIR$/assets/img/favicon/apple-icon-57x57.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/apple-icon-60x60.png" afterPath="$PROJECT_DIR$/assets/img/favicon/apple-icon-60x60.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/apple-icon-72x72.png" afterPath="$PROJECT_DIR$/assets/img/favicon/apple-icon-72x72.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/apple-icon-76x76.png" afterPath="$PROJECT_DIR$/assets/img/favicon/apple-icon-76x76.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/apple-icon-precomposed.png" afterPath="$PROJECT_DIR$/assets/img/favicon/apple-icon-precomposed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/apple-icon.png" afterPath="$PROJECT_DIR$/assets/img/favicon/apple-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/favicon-16x16.png" afterPath="$PROJECT_DIR$/assets/img/favicon/favicon-16x16.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/favicon-32x32.png" afterPath="$PROJECT_DIR$/assets/img/favicon/favicon-32x32.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/favicon-96x96.png" afterPath="$PROJECT_DIR$/assets/img/favicon/favicon-96x96.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/ms-icon-144x144.png" afterPath="$PROJECT_DIR$/assets/img/favicon/ms-icon-144x144.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/ms-icon-150x150.png" afterPath="$PROJECT_DIR$/assets/img/favicon/ms-icon-150x150.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/ms-icon-310x310.png" afterPath="$PROJECT_DIR$/assets/img/favicon/ms-icon-310x310.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon/ms-icon-70x70.png" afterPath="$PROJECT_DIR$/assets/img/favicon/ms-icon-70x70.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/intro-bg.jpg" afterPath="$PROJECT_DIR$/assets/img/intro-bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/logo/MvvmCross-404.png" afterPath="$PROJECT_DIR$/assets/img/logo/MvvmCross-404.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/logo/MvvmCross-avatar.png" afterPath="$PROJECT_DIR$/assets/img/logo/MvvmCross-avatar.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/logo/farhadmirzapour-avatar.png" afterPath="$PROJECT_DIR$/assets/img/logo/farhadmirzapour-avatar.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/logo/farhadmirzapour-logo.png" afterPath="$PROJECT_DIR$/assets/img/logo/farhadmirzapour-logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/posts/psr/827gitta_web_ir_PSR-1-big.jpg" afterPath="$PROJECT_DIR$/assets/img/posts/psr/827gitta_web_ir_PSR-1-big.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="$PROJECT_DIR$/_includes/head.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/layouts/_blog.scss" afterPath="$PROJECT_DIR$/_sass/layouts/_blog.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/layouts/_default.scss" afterPath="$PROJECT_DIR$/_sass/layouts/_default.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/layouts/_post.scss" afterPath="$PROJECT_DIR$/_sass/layouts/_post.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/mvxtheme.scss" afterPath="$PROJECT_DIR$/_sass/mvxtheme.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,11 +47,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="head.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="head.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/head.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="32" column="7" lean-forward="false" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+            <state relative-caret-position="140">
+              <caret line="7" column="107" lean-forward="false" selection-start-line="7" selection-start-column="107" selection-end-line="7" selection-end-column="107" />
               <folding />
             </state>
           </provider>
@@ -70,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_blog.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_blog.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_sass/layouts/_blog.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="236" column="19" lean-forward="false" selection-start-line="236" selection-start-column="19" selection-end-line="236" selection-end-column="19" />
+            <state relative-caret-position="150">
+              <caret line="234" column="18" lean-forward="false" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -167,10 +174,10 @@
         <option value="$PROJECT_DIR$/404.html" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/_sass/mvxtheme.scss" />
-        <option value="$PROJECT_DIR$/_includes/head.html" />
         <option value="$PROJECT_DIR$/_sass/layouts/_default.scss" />
         <option value="$PROJECT_DIR$/_sass/layouts/_post.scss" />
         <option value="$PROJECT_DIR$/_sass/layouts/_blog.scss" />
+        <option value="$PROJECT_DIR$/_includes/head.html" />
       </list>
     </option>
   </component>
@@ -211,13 +218,7 @@
             <path>
               <item name="farhad-weblog" type="b2602c69:ProjectViewProjectNode" />
               <item name="farhad-weblog" type="462c0819:PsiDirectoryNode" />
-              <item name="_sass" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="farhad-weblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="farhad-weblog" type="462c0819:PsiDirectoryNode" />
-              <item name="_sass" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="_includes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -279,12 +280,12 @@
       <workItem from="1509079186440" duration="17033000" />
       <workItem from="1509104616420" duration="2146000" />
       <workItem from="1509122115045" duration="9198000" />
-      <workItem from="1509197759307" duration="12270000" />
+      <workItem from="1509197759307" duration="13583000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78395000" />
+    <option name="totallyTimeSpent" value="79708000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="0" width="1346" height="688" extended-state="0" />
@@ -740,14 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="32" column="7" lean-forward="false" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_sass/layouts/_default.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -766,8 +759,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_sass/layouts/_blog.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="236" column="19" lean-forward="false" selection-start-line="236" selection-start-column="19" selection-end-line="236" selection-end-column="19" />
+        <state relative-caret-position="150">
+          <caret line="234" column="18" lean-forward="false" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="107" lean-forward="false" selection-start-line="7" selection-start-column="107" selection-end-line="7" selection-end-column="107" />
           <folding />
         </state>
       </provider>
