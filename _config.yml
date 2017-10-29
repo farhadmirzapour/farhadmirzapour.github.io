@@ -87,9 +87,26 @@ mini_magick:
 menu:
   - title: "مقالات"
     url: "/blog"
-  - title: "آموزش لاراول"
-    url: "/laravel"
+  - title: "آموزش شی گرایی در php"
+    url: "/documentation"
   - title: "پشتیبانی"
     url: "/support"
 # End
-
+# Collections settings
+collections:
+  documentation:
+    output: true
+    permalink: /:collection/:path
+# End
+category_order:
+  - 'Getting-started'
+  - 'Fundamentals'
+  - 'Platform specifics'
+  - 'Presenters'
+  - 'Plugins'
+  - 'Testing'
+  - 'Samples'
+  - 'Upgrading'
+  - 'TipCalc Tutorial'
+  - 'Contributing'
+  - 'Licensing'

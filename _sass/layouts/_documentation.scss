@@ -8,8 +8,8 @@
   > .doc-menu {
     display: none;
     height: calc(100vh - (#{$header-height} + #{$header-border-width}));
-    padding-left: 15px;
     padding-right: 15px;
+    padding-left: 15px;
     overflow-y: auto;
     box-sizing: border-box;
     border: solid 1px $gray-color;
@@ -25,7 +25,7 @@
 
     ul {
       list-style-type: none;
-      padding-left: 20px;
+      padding-right: 20px;
       margin-top: 10px;
       margin-bottom: 25px;
 
@@ -144,7 +144,7 @@
     }
 
     > .documentation {
-      margin-left: $doc-menu-width;
+      margin-right: $doc-menu-width;
       padding-right: $doc-desktop-padding;
       padding-left: $doc-desktop-padding;
     }
