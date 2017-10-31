@@ -32,10 +32,26 @@
         </form>
     </div>
     <div class="home-nav" role="navigation" aria-label="Site navigation">
-        <a href="{{ '/' | relative_url }}" role="menuitem" aria-label="Home">Home</a>
+        <a href="{{ '/' | relative_url }}" role="menuitem" aria-label="Home">صفحه اصلی</a>
         {% for item in site.menu %}
         <a href="{{ item.url | relative_url }}" role="menuitem" aria-label="{{ item.title | escape }}">{{ item.title | escape }}</a>
         {% endfor %}
     </div>
+    <div class="doc-nav" role="navigation" aria-label="Documentation navigation">
+        {% if page.cattitle == null %}
+        {% assign categoryname = page.page %}
+        {% endif %}
+        {% if page.cattitle != null %}
+        {% assign categoryname = page.cattitle %}
+        {% endif %}
 
+        <p role="presentation" aria-label="Category name">{{ categoryname }}</p>
+        <ul role="menu" aria-hidden="true" aria-label="Navigation menu">
+            {% for item in site.documentation %}
+            {% if item.document-cat == page.document-cat %}
+            <li role="menuitem" aria-label="Navigation menu item"><a href="{{ item.url | relative_url }}" class="doc-link" role="link" aria-label="{{ item.title }}">{{ item.title }}</a></li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
 </nav>

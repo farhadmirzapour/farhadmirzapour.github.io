@@ -120,20 +120,21 @@
   }
 
   #hamburger-menu {
+    direction: rtl;
+    text-align: right;
     display: flex;
     display: -webkit-flex;
     flex-flow: column nowrap;
     height: 100vh;
     width: $hamburger-menu-width;
     background-color: $header-background-color;
-    box-shadow: $header-shadow-width 0 6px $header-shadow-color;
     box-sizing: border-box;
     padding-top: $header-height + $header-border-width;
     overflow-y: auto;
     color: $text-color;
     // hamburger menu position
     position: fixed;
-    left: -($hamburger-menu-width + $header-shadow-width);
+    right: -($hamburger-menu-width + $header-shadow-width);
     z-index: 10;
     // navigation animation
     -webkit-transition: .2s ease-in-out; 
@@ -177,7 +178,8 @@
         font-weight: bold;
         text-transform: uppercase;
         text-decoration: none;
-        text-align: center;
+        text-align: right;
+        direction: rtl;
         color: inherit;
         display: block;
         padding: 10px 10px;
@@ -193,7 +195,7 @@
         text-transform: uppercase;
         font-weight: bold;
         margin-bottom: 0;
-        padding-left: 15px;
+        padding-right: 15px;
       }
 
       ul {
@@ -208,7 +210,7 @@
         display: inline-block;
         padding-top: 8px;
         padding-bottom: 8px;
-        padding-left: 15px;
+        padding-right: 15px;
         box-sizing: border-box;
         width: 100%;
       }

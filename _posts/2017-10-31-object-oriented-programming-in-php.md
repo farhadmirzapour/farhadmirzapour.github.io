@@ -1,10 +1,10 @@
 ---
-layout: post
-title:   استانداردهای سری PSR2
-date:   2017-10-20 16:49:42 +0330
+layout: documentation
+title:  آموزش شی گرایی در php
+date:   2017-10-31 16:49:42 +0330
 jdate: جمعه 28 مهر 1396
-categories: articles
-#  permalink: /:categories/:title.html
+document-cat: object-oriented-programming-in-php
+# permalink: /:categories/:title.html
 thumbnail: 827gitta_web_ir_PSR-1.jpg
 ---
 <div align="center">
