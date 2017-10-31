@@ -1,10 +1,10 @@
 ---
 layout: documentation
 title: 2 ساختار کلاس
+cattitle:  آموزش شی گرایی در php
 date:   2017-10-31 16:49:42 +0330
 jdate: جمعه 28 مهر 1396
-categories: test
-cat: test
+document-cat: test
 #  permalink: /:categories/:title.html
 thumbnail: 827gitta_web_ir_PSR-1.jpg
 ---

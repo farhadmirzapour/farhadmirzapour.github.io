@@ -37,15 +37,21 @@
         <a href="{{ item.url | relative_url }}" role="menuitem" aria-label="{{ item.title | escape }}">{{ item.title | escape }}</a>
         {% endfor %}
     </div>
+
+    {% if page.document-cat != null %}
     <div class="doc-nav" role="navigation" aria-label="Documentation navigation">
         {% if page.cattitle == null %}
-        {% assign categoryname = page.page %}
+        {% assign categoryname = page.title %}
         {% endif %}
         {% if page.cattitle != null %}
         {% assign categoryname = page.cattitle %}
         {% endif %}
 
-        <p role="presentation" aria-label="Category name">{{ categoryname }}</p>
+        <p role="presentation" aria-label="Category name">
+            <a href="{{ page.url | relative_url }}" role="menuitem" aria-label="{{ page.title | escape }}">
+            {{ categoryname }}
+            </a>
+        </p>
         <ul role="menu" aria-hidden="true" aria-label="Navigation menu">
             {% for item in site.documentation %}
             {% if item.document-cat == page.document-cat %}
@@ -54,4 +60,5 @@
             {% endfor %}
         </ul>
     </div>
+    {% endif %}
 </nav>
