@@ -2,11 +2,12 @@
 layout: documentation
 title:  آموزش شی گرایی در php
 cattitle: آموزش شی گرایی در php
-date:   2017-10-31 16:49:42 +0330
-jdate: جمعه 28 مهر 1396
-caturl: 2017/10/31/object-oriented-programming-in-php.html
+date:   2017-11-01 16:49:42 +0330
+jdate: چهارشنبه 10 آبان 1396
+caturl: 2017/11/01/object-oriented-programming-in-php.html
 # permalink: /:categories/:title.html
 thumbnail: php-oop-course.png
+refrence: http://www.esfandune.ir/اموزش-برنامه-نویسی-شی-گرا-در-php-قسمت-1/
 ---
 <div align="center">
 <img src="/images/original/php-oop-course.png" alt="{{page.title}}" />

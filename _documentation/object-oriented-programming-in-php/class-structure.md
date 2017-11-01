@@ -4,15 +4,16 @@ title:  ساختار کلاس در PHP
 cattitle: آموزش شی گرایی در php
 date:   2017-11-01 20:53:42 +0330
 jdate: چهارشنبه 10 آبان 1396
-caturl: 2017/10/31/object-oriented-programming-in-php.html
+caturl: 2017/11/01/object-oriented-programming-in-php.html
 # permalink: /:categories/:title.html
+refrence: https://roocket.ir/articles/object-oriented-programming-in-php-part-1
 ---
 <div align="center">
 <img src="/images/original/php-oop-course.png" alt="{{page.title}}" />
 </div>
 
 <h3>ساختار کلاس ها</h3>
-<p>در php یک کلاس با کلمه کلیدی (<span style="font-size: 16px;"><strong><span style="color: rgb(0, 0, 128);">class</span></strong></span>) بوجود میاد و با یک اسپیس و تایپ یک اسم شما اسم اون کلاس رو تعریف میکنید و در نهایت با قرار دادن براکت های باز و بسته ( <span style="font-size: 16px;"><strong><span style="color: rgb(0, 0, 128);">{ }</span></strong></span>&nbsp;) کار یک class رو شروع میکنید . دقیقا مثل مثال زیر :
+<p>در php یک کلاس با کلمه کلیدی (<span style="font-size: 16px;"><strong><span class="notespan">class</span></strong></span>) بوجود میاد و با یک اسپیس و تایپ یک اسم، شما اسم اون کلاس رو تعریف میکنید و در نهایت با قرار دادن براکت های باز و بسته ( <span style="font-size: 16px;"><strong><span class="notespan">{ }</span></strong></span>&nbsp;) کار یک class رو شروع میکنید . دقیقا مثل مثال زیر :
 </p>
 
 <pre><code class="language-php  line-numbers">class MyClass
@@ -22,7 +23,7 @@ caturl: 2017/10/31/object-oriented-programming-in-php.html
 </code></pre>
 
 <p>
-بعد از به وجود آوردن کلاس ما با استفاده از کلمه کلیدی new می تونیم از اون کلاس استفاده کنیم و یک شی (object) با همون کلاس بسازیم . در زیر میتونید این روش رو ببینید :
+بعد از به وجود آوردن کلاس ما با استفاده از کلمه کلیدی new می تونیم از اون کلاس استفاده کنیم و یک شی (object) با همون کلاس بسازیم . در زیر میتونید این روش رو ببینید:
 </p>
 <pre><code class="language-php  line-numbers">$obj = new MyClass;</code></pre>
 
@@ -32,7 +33,7 @@ caturl: 2017/10/31/object-oriented-programming-in-php.html
 <pre><code class="language-php  line-numbers">var_dump($obj);</code></pre>
 
 
-<h3>معرفی property ها</h3> <p>برای اضافه کردن اطلاعات در کلاس ها از <span style="font-size: 16px;"><strong><span style="color: rgb(0, 0, 128);">property </span></strong></span>ها استفاده میشه . کار اونها دقیقا شبیه متغیرها در php معمولیه و تنها تفاوتشون اینکه قبل از تایپ اسم <span style="color: rgb(0, 0, 128);"><span style="font-size: 16px;"><strong>property </strong></span></span>از کلمات کلیدی <strong><span style="color: rgb(0, 0, 128);"><span style="font-size: 16px;">private </span></span></strong>,&nbsp;<span style="font-size: 16px;"><span style="color: rgb(0, 0, 128);"><strong>protected </strong></span></span>و <strong><span style="color: rgb(0, 0, 128);"><span style="font-size: 16px;">public </span></span></strong>استفاده میشه ، این کلمات کلیدی رو در کپسوله سازی (پنهان سازی) بطور کامل توضیح می دم فقط فعلا در همین حد بدونید که این کلمات باید برای تعریف <span style="font-size: 16px;"><strong><span style="color: rgb(0, 0, 128);">property </span></strong></span>ها و <span style="font-size: 16px;"><strong><span style="color: rgb(0, 0, 128);">method </span></strong></span>ها قبل از اسم اونها قرار بگیرن .
+<h3>معرفی property ها</h3> <p>برای اضافه کردن اطلاعات در کلاس ها از <span style="font-size: 16px;"><strong><span class="notespan">property </span></strong></span>ها استفاده میشه . کار اونها دقیقا شبیه متغیرها در php معمولیه و تنها تفاوتشون اینکه قبل از تایپ اسم <span class="notespan"><span style="font-size: 16px;"><strong>property </strong></span></span>از کلمات کلیدی <strong><span class="notespan"><span style="font-size: 16px;">private </span></span></strong>,&nbsp;<span style="font-size: 16px;"><span class="notespan"><strong>protected </strong></span></span>و <strong><span class="notespan"><span style="font-size: 16px;">public </span></span></strong>استفاده میشه ، این کلمات کلیدی رو در کپسوله سازی (پنهان سازی) بطور کامل توضیح می دم فقط فعلا در همین حد بدونید که این کلمات باید برای تعریف <span style="font-size: 16px;"><strong><span class="notespan">property </span></strong></span>ها و <span style="font-size: 16px;"><strong><span class="notespan">method </span></strong></span>ها قبل از اسم اونها قرار بگیرند:
 </p>
 
 <pre><code class="language-php  line-numbers">class MyClass
@@ -50,7 +51,7 @@ var_dump($obj);
 </p>
 
 <p>
-شما به راحتی میتونید بعد از تعریف شی دوباره property رو مقداردهی کنید البته تنها در حالتی که اون property از نوع public باشه و همینطور به راحتی میتونید اون رو با استفاده از echo چاپ کنید . البته برای چاپ یا مقداردهی دوباره ، نیاز به دسترسی به اون property از طریق object دارید برای اینکار بعد از تایپ اسم object با قرار دادن یک فلش ( <- ) و تایپ اسم property میتونید به اون دسترسی داشته باشید . به مثال زیر دقت کنید
+شما به راحتی میتونید بعد از تعریف شی دوباره property رو مقداردهی کنید البته تنها در حالتی که اون property از نوع public باشه و همینطور به راحتی میتونید اون رو با استفاده از echo چاپ کنید . البته برای چاپ یا مقداردهی دوباره ، نیاز به دسترسی به اون property از طریق object دارید برای اینکار بعد از تایپ اسم object با قرار دادن یک فلش ( <- ) و تایپ اسم property میتونید به اون دسترسی داشته باشید . به مثال زیر دقت کنید:
 </p>
 
 <pre><code class="language-php  line-numbers">class MyClass
@@ -68,11 +69,11 @@ echo $obj->name ;
 </code></pre>
 
 
-<h3>معرفی method ها</h3><p><strong><span style="color: rgb(0, 0, 128);"><span style="font-size: 16px;">method</span></span></strong> ها دقیقا کار توابع رو در کلاس ها انجام میدن یعنی تفاوتی چندانی با هم ندارن <span style="color: rgb(0, 0, 128);"><span style="font-size: 16px;"><strong>method </strong></span></span>ها هم با قرار گرفتن کلمه کلیدی&nbsp;<strong><span style="color: rgb(0, 0, 128);"><span style="font-size: 16px;">private&nbsp;</span></span></strong>,&nbsp;<span style="font-size: 16px;"><span style="color: rgb(0, 0, 128);"><strong>protected&nbsp;</strong></span></span>و&nbsp;<strong><span style="color: rgb(0, 0, 128);"><span style="font-size: 16px;">public</span></span></strong> قبل از <span style="font-size: 16px;"><strong><span style="color: rgb(0, 0, 128);">function </span></strong></span>تعریف میشن . یک <span style="font-size: 16px;"><span style="color: rgb(0, 0, 128);"><strong>method</strong></span></span> میتونه به شی ها کمک کنه که در داخل کلاس ها عملیاتی رو انجام بدن البته این عملیات توسط متدها مشخص میشه .&nbsp;
+<h3>معرفی method ها</h3><p><strong><span class="notespan"><span style="font-size: 16px;">method</span></span></strong> ها دقیقا کار توابع رو در کلاس ها انجام میدن یعنی تفاوتی چندانی با هم ندارن <span class="notespan"><span style="font-size: 16px;"><strong>method </strong></span></span>ها هم با قرار گرفتن کلمه کلیدی&nbsp;<strong><span class="notespan"><span style="font-size: 16px;">private&nbsp;</span></span></strong>,&nbsp;<span style="font-size: 16px;"><span class="notespan"><strong>protected&nbsp;</strong></span></span>و&nbsp;<strong><span class="notespan"><span style="font-size: 16px;">public</span></span></strong> قبل از <span style="font-size: 16px;"><strong><span class="notespan">function </span></strong></span>تعریف میشن . یک <span style="font-size: 16px;"><span class="notespan"><strong>method</strong></span></span> میتونه به شی ها کمک کنه که در داخل کلاس ها عملیاتی رو انجام بدن البته این عملیات توسط متدها مشخص میشه .&nbsp;
 </p>
 
 <p>
-برای مثال متدهای برای set و get کردن اطلاعات property داخل کلاس می نویسیم . به کد زیر دقت کنید :
+برای مثال متدهایی برای set و get کردن اطلاعات property داخل کلاس می نویسیم . به کد زیر دقت کنید:
 </p>
 
 
@@ -102,7 +103,7 @@ echo $obj->name;
 </p>
 
 <p>
-در کد بالا من فقط با قرار دادن obj->name$ اومدم مقدار این  property رو چاپ کردم اما در مثال زیر من ابتدا من با استفاده از متد getProperty میام مقدار فعلی name$ رو چاپ میکنم و بعد در مرحله بعدی با استفاده از متد setProperty و ارسال یک مقدار به عنوان آرگومان میام یک مقدار جدید برای name$ تعیین میکنم و بعد دوباره با چاپ کردن متد getProperty میام مقدار فعلیش رو چاپ می کنیم . این یک روش مهم برای set و get کردن  property هاست که به زودی در قسمت بعد دلیلش رو هم میفهمید ولی فعلا از دید امتحان کردن یک متد بهش نگاه کنید .
+در کد بالا من فقط با قرار دادن obj->name$ اومدم مقدار این  property رو چاپ کردم اما در مثال زیر من ابتدا من با استفاده از متد getProperty میام مقدار فعلی name$ رو چاپ میکنم و بعد در مرحله بعدی با استفاده از متد setProperty و ارسال یک مقدار به عنوان آرگومان میام یک مقدار جدید برای name$ تعیین میکنم و بعد دوباره با چاپ کردن متد getProperty میام مقدار فعلیش رو چاپ می کنیم . این یک روش مهم برای set و get کردن  property هاست که به زودی در قسمت بعد دلیلش رو هم میفهمید ولی فعلا از دید امتحان کردن یک متد بهش نگاه کنید:
 </p>
 
 <pre><code class="language-php  line-numbers">class MyClass
@@ -130,7 +131,7 @@ echo $obj->getProperty(); // Read it out again to show the change
 </code></pre>
 
 <p>
-نتیجه زیر حاصل از اجرای کد بالاست
+نتیجه زیر حاصل از اجرای کد بالاست:
 </p>
 
 

@@ -2,6 +2,15 @@
  * Copyright (c) 2017 MvvmCross
  */
 
+.anchored{
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $brand-color;
+  }
+}
+
 .post {
   color: $text-color;
   margin-bottom: $post-bottom-margin;
@@ -20,12 +29,6 @@
 .anchorjs-link{
   padding-left: 10px;
 }
-  h3,
-  h4,
-  h5,
-  h6 {
-    color: $brand-color;
-  }
 
   h1 {
     font-weight: $base-font-weight;

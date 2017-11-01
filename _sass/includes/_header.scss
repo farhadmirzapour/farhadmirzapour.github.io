@@ -175,6 +175,7 @@
       border-bottom: 1px solid $gray-color;
 
       a {
+        font-size: 12px;
         font-weight: bold;
         text-transform: uppercase;
         text-decoration: none;
@@ -192,10 +193,11 @@
 
     > .doc-nav {
       p {
+        font-size: 12px;
         text-transform: uppercase;
         font-weight: bold;
         margin-bottom: 0;
-        padding-right: 15px;
+        padding-right: 10px;
       }
 
       ul {

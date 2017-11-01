@@ -48,6 +48,17 @@ body {
   line-height: $base-line-height;
 
 }
+.time{
+  font-size: 12px;
+}
+.notespan{
+  color: #a31515;
+  direction: ltr;
+}
+.refrencehref{
+  direction: ltr;
+  text-align: left;
+}
 a:link {
   text-decoration: none !important;
 }

@@ -24,20 +24,28 @@ typepage: document
 
     <article class="documentation">
         <header class="doc-header">
-            <h2>
+            <h3>
                 {% if page.cattitle == null %}
                 {{ page.title | escape }}
                 {% endif %}
                 {% if page.cattitle != null %}
                 {{ page.cattitle | escape }}
                 {% endif %}
-            </h2>
+            </h3>
+            <p class="meta">
+            <div class="time">
+                    تاریخ :      {{ page.jdate}}
+            </div>
+                {% if page.author %}
+                • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+                {% endif %}
+            </p>
         </header>
-        <section>
+        <section class="anchored">
             {{ content }}
         </section>
+        {% include refrence.html %}
     </article>
 </div>
-
 {% include deeplink.html %}
 {% include doc-scroll.html %}

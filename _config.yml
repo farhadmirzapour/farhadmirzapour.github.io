@@ -56,7 +56,7 @@ social:
     - https://github.com/farhadmirzapour
 
 logo: /assets/img/logo/blankspace-avatar.png
-paginate: 2
+paginate: 8
 paginate_path: "/blog/page:num/"
 twitter:
   username: farhadmirzapour
@@ -87,10 +87,8 @@ mini_magick:
 menu:
   - title: "مقالات"
     url: "/blog"
-  - title: "آموزش شی گرایی در php"
-    url: "/documentation"
-  - title: "پشتیبانی"
-    url: "/support"
+  - title: "تماس"
+    url: "/contactus"
 # End
 # Collections settings
 collections:

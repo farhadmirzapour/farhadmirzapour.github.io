@@ -29,9 +29,13 @@
       margin-top: 10px;
       margin-bottom: 25px;
 
+      li{
+        padding-bottom: 10px;
+      }
       a {
         color: lighten($text-color, 25%);
         text-decoration: none;
+        font-size: 14px;
       }
 
       a:hover {
@@ -61,12 +65,7 @@
     .anchorjs-link{
       padding-left: 10px;
     }
-    h3,
-    h4,
-    h5,
-    h6 {
-      color: $brand-color;
-    }
+
     h1 {
       font-weight: $base-font-weight;
       direction: rtl;
