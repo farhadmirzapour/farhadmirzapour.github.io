@@ -38,21 +38,13 @@
         {% endfor %}
     </div>
 
-    {% if page.document-cat != null %}
+    {% if page.caturl != null %}
     <div class="doc-nav" role="navigation" aria-label="Documentation navigation">
-        {% if page.cattitle == null %}
-        {% assign categoryname = page.title %}
-        {% endif %}
-        {% if page.cattitle != null %}
-        {% assign categoryname = page.cattitle %}
-        {% endif %}
-
         <p role="presentation" aria-label="Category name">
-            <a href="{{ page.url | relative_url }}" role="menuitem" aria-label="{{ page.title | escape }}">
-            {{ categoryname }}
-            </a>
+            {{ page.cattitle }}
         </p>
         <ul role="menu" aria-hidden="true" aria-label="Navigation menu">
+            <li role="menuitem" aria-label="Navigation menu item"><a href="{{ page.caturl | relative_url }}" class="doc-link" role="link" aria-label="{{ page.title }}">مقدمه</a></li>
             {% for item in site.documentation %}
             {% if item.document-cat == page.document-cat %}
             <li role="menuitem" aria-label="Navigation menu item"><a href="{{ item.url | relative_url }}" class="doc-link" role="link" aria-label="{{ item.title }}">{{ item.title }}</a></li>

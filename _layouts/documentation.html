@@ -5,8 +5,13 @@ typepage: document
 <div class="doc-container">
     <div class="doc-menu">
         <ul>
+            <li>
+                <a  href="{{ page.caturl | relative_url }}" class="active doc-link" role="link">
+                    مقدمه
+                </a>
+            </li>
         {% for item in site.documentation %}
-            {% if item.document-cat == page.document-cat %}
+            {% if item.caturl == page.caturl %}
             <li>
                  <a title="{{ item.title }}" href="{{ item.url | relative_url }}" class="active doc-link" role="link">
                      {{ item.title }}
