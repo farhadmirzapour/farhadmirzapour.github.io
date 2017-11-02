@@ -6,7 +6,7 @@ date:   2017-11-01 20:57:42 +0330
 jdate: چهارشنبه 10 آبان 1396
 caturl: 2017/11/01/object-oriented-programming-in-php.html
 # permalink: /:categories/:title.html
-refrence: https://roocket.ir/articles/object-oriented-programming-in-php-part-4
+refrence: https://roocket.ir/articles/object-oriented-programming-in-php-part-4 <br> http://bshafiei.ir/Article_view/index/1XvocDexH9mhWT/برنامه-نویسی-شی-گرا-در-PHP <br>  http://w3-farsi.ir/?p=2432
 ---
 <div align="center">
 <img src="/images/original/php-oop-course.png" alt="{{page.title}}" />
@@ -104,9 +104,12 @@ echo $newobj->getProperty();
 I'm a class property!
 </code></pre>
 
+<h3>مفهوم Overriding</h3>
+
 <p>
  آیا میشه method ها و property های که در کلاس پدر هست در کلاس فرزند هم دوباره نویسی کرد با یک ویژگی دیگه ؟
 </p>
+
 
 <p>
 جواب این مسئله هم بله است ، شما به راحتی مثل کد زیر می تونید همون متدی که در کلاس پدر هست با همون اسم در کلاس فرزند بسازین و دوباره نویسی کنید با ویژگی های جدید اینطوری اول چک میکنه که اون method در کلاس فزرند هست یا خیر اگر بود که برگشت داده میشه و اگر نبود به کلاس پدر میره و دنبال اون method میگرده و اگر بود برمیگردونه.
@@ -140,3 +143,84 @@ $foo->printPHP();       // Output: 'PHP is great'
 $bar->printItem('baz'); // Output: 'Bar: baz'
 $bar->printPHP();       // Output: 'PHP is great'
 </code></pre>
+
+<h3>کلمه کلیدی Final</h3>
+
+<p>
+در PHP5 کلمه کلیدی final معرفی شد که از همپوشانی یک متدی که به صورت final‌تعریف شده توسط کلاس های فرزند جلوگیری می کند. اکر کلاس خودش به صورت final تعریف شود آنگاه نمی تواند ارث بری شود.
+</p>
+
+
+
+<pre><code class="language-php  line-numbers"><?php
+class BaseClass {
+    public function test() {
+        echo "BaseClass::test() called<br>";
+    }
+
+    final public function moreTesting() {
+        echo "BaseClass::moreTesting() called<br>";
+    }
+}
+
+class ChildClass extends BaseClass {
+    public function moreTesting() {
+        echo "ChildClass::moreTesting() called<br>";
+    }
+}
+</code></pre>
+
+<p>
+مثال بالا منجر به خطای زیر شده است :
+</p>
+
+<pre><code class="language-php">
+Cannot override final method BaseClass::moreTesting()
+</code></pre>
+
+
+<h3>عملگرهای parent و self</h3>
+<p>
+parent و self در PHP دو کلمه کلیدی هستند که کدنویسی را در زمان نوشتن برنامه های شیء گرا راحت می کنند. از کلمه کلیدی parent برای دسترسی به سازنده و متدهای کلاس والد و از کلمه کلیدی self برای دسترسی به کلاس جاری و استفاده از اعضا و متدهای استاتیک و همچنین ثابت های کلاس استفاده می شود. نحوه استفاده از این دو کلمه برای دسترسی به اعضا و متدها به صورت زیر است :
+</p>
+
+<pre><code class="language-php">parent :: class member
+self :: class member
+</code></pre>
+
+<p>
+یعنی مثلا اگر بخواهیم از یک ثابت در یک کلاس استفاده کنیم کافیست کلمه self و بعد از آن دو نقطه و سپس نام ثابت را بنویسیم. در کد زیر نحوه استفاده از این دو کلمه کلیدی آمده است :
+</p>
+
+<pre><code class="language-php   line-numbers"><?php
+     class ParentClass
+     {
+         const NAME = "ParentClass";
+         function __construct()
+         {
+             echo "In " . self::NAME . " constructor" . "<br/>";
+         }
+     }
+
+     class Child extends ParentClass
+     {
+         const NAME = "Child";
+         function __construct()
+         {
+             parent::__construct();
+             echo "In " . self::NAME . " constructor" . "<br/>";
+         }
+     }
+
+     $child = new Child();
+ </code></pre>
+
+ <p>خروجی : </p>
+ <pre><code class="language-php">
+ In ParentClass constructor
+ In Child constructor
+  </code></pre>
+
+  <p>
+  همانطور که احتمالا متوجه شده اید برای دسترسی به اعضا، متدها و ثابت ها بعد از این دو کلمه کلیدی علامت دو نقطه (::) می گذاریم. کلمه کلیدی self در خط 7 به کلاس ParentClass و در خط 17 به کلاس Child اشاره دارد. در همین دو خط علامت دو نقطه و سپس نام ثابت های این دو کلاس یعنی NAME را نوشته ایم و این بدین معنی است که می خواهیم از این ثابت ها استفاده کنیم. در خط 16 برای اینکه از تمام کدهای سازنده کلاس پدر استفاده کنیم، به راحتی کلمه parent و بعد دو نقطه و در نهایت نام سازنده یعنی ()constract__ را می نویسیم. این کار باعث می شود تمام کدهای موجود در سازنده کلاس پدر در داخل کلاس فرزند اجرا شوند. برای همین است که وقتی یک شیء از کلاس فرزند ایجاد می کنیم کدهای سازنده کلاس پدر (خط 7) اجرا می شوند.
+  </p>

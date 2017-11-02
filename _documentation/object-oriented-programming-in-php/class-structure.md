@@ -6,7 +6,7 @@ date:   2017-11-01 20:53:42 +0330
 jdate: چهارشنبه 10 آبان 1396
 caturl: 2017/11/01/object-oriented-programming-in-php.html
 # permalink: /:categories/:title.html
-refrence: https://roocket.ir/articles/object-oriented-programming-in-php-part-1
+refrence: https://roocket.ir/articles/object-oriented-programming-in-php-part-1 <br> https://bshafiei.ir/Article_view/index/1XvocDexH9mhWT/برنامه-نویسی-شی-گرا-در-PHP
 ---
 <div align="center">
 <img src="/images/original/php-oop-course.png" alt="{{page.title}}" />
@@ -137,4 +137,50 @@ echo $obj->getProperty(); // Read it out again to show the change
 
 <pre><code class="language-php ">John Doe
 Hesam Mousavi
+</code></pre>
+
+<h3>ثابت ها</h3>
+
+<p>
+یک ثابت چیزی شبیه به یک متغیر است، که می تواند یک مقدار را در خود نگاه دارد. یک بار که شما یک ثابت را تعریف کنید آن ثابت دیگر تغییر نخواهد کرد.
+</p>
+
+
+<pre><code class="language-php ">class MyClass {
+    const requiredMargin = 1.7;
+
+    function __construct($incomingValue) {
+        // Statements here run every time
+        // an instance of the class
+        // is created.
+    }
+}
+</code></pre>
+
+<p>
+در این کلاس، requiredMargin یک ثابت است. این ثابت با استفاده از کلمه کلیدی const اعلان شده است و تحت هیچ شرایطی مقدار آن بع غیر از 1.7 تغییر نخواهد کرد. توجه داشته باشید که نام ثابت پیشوند $ مشابه آنچه در مورد متغیرها به کار می رود ندارد.
+</p>
+
+<h3>
+کلمه کلیدی static
+</h3>
+
+<p>
+اعلان اعضا یا متدهای کلاس به صورت static آنها را بدون نیاز به نمونه سازی از کلاس در دسترس می کند. یک عضو اعلان شده به صورت static نمی تواند با یک شی کلاس نمونه سازی شده در دسترس باشد(البته از طریق یک متد استاتیک می تواند).
+</p>
+
+
+<pre><code class="language-php "><?php
+class Foo {
+    public static $my_static = 'foo';
+
+    public function staticValue() {
+        return self::$my_static;
+    }
+}
+
+print Foo::$my_static . "\n";
+$foo = new Foo();
+
+print $foo->staticValue() . "\n";
 </code></pre>
