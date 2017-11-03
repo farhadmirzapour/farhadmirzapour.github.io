@@ -6,7 +6,7 @@ date:   2017-11-03 16:37:42 +0330
 jdate: جمعه 12 آبان 1396
 caturl: 2017/11/03/php7.html
 # permalink: /:categories/:title.html
-thumbnail: php7.1.jpg
+thumbnail: php7.jpg
 refrence: http://lydaweb.com/article/courses/php-7-new-features/9/کارایی-php-7
 ---
 <h3>کارایی php7</h3>

@@ -6,7 +6,7 @@ date:   2017-11-03 20:10:42 +0330
 jdate: جمعه 12 آبان 1396
 caturl: 2017/11/03/php7.html
 # permalink: /:categories/:title.html
-thumbnail: php7.1.jpg
+thumbnail: php7.jpg
 refrence: http://hiranian.ir/articles/59-آموزش/learn-programming/php7-training/566-php7-anonymous-classes.html
 ---
 <h3>کلاس های anonymous</h3>

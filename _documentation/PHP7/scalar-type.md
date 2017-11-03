@@ -6,7 +6,7 @@ date:   2017-11-03 19:37:42 +0330
 jdate: جمعه 12 آبان 1396
 caturl: 2017/11/03/php7.html
 # permalink: /:categories/:title.html
-thumbnail: php7.1.jpg
+thumbnail: php7.jpg
 refrence: http://bhiranian.ir/articles/59-آموزش/learn-programming/php7-training/561-php7-scalar-type-declarations.html
 ---
 <h3>Scalar type های جدید در php7</h3>

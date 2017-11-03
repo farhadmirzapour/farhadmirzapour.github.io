@@ -6,7 +6,7 @@ date:   2017-11-03 19:58:42 +0330
 jdate: جمعه 12 آبان 1396
 caturl: 2017/11/03/php7.html
 # permalink: /:categories/:title.html
-thumbnail: php7.1.jpg
+thumbnail: php7.jpg
 refrence: http://lydaweb.com/article/courses/php-7-new-features/13/عملگر-spaceship-در-php-7
 ---
 <h3>عملگر spaceship</h3>

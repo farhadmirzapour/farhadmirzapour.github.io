@@ -6,7 +6,7 @@ date:   2017-11-03 20:43:42 +0330
 jdate: جمعه 12 آبان 1396
 caturl: 2017/11/03/php7.html
 # permalink: /:categories/:title.html
-thumbnail: php7.1.jpg
+thumbnail: php7.jpg
 refrence: http://bhiranian.ir/articles/59-آموزش/learn-programming/php7-training/572-php7-use-statement.html
 ---
 <h3>گروه بندی use ها</h3>
