@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e64ae264-382d-40a9-aa7a-eb57cef08f24" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-10-29-composer.md" afterPath="$PROJECT_DIR$/_posts/2017-10-29-composer.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/layouts/_default.scss" afterPath="$PROJECT_DIR$/_sass/layouts/_default.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,17 +16,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2017-10-29-composer.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2017-10-29-composer.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="6" column="38" lean-forward="true" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-                <folding />
-              </first_editor>
-              <second_editor>
-                <js_state />
-              </second_editor>
+      <file leaf-file-name="_default.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_sass/layouts/_default.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1857">
+              <caret line="216" column="27" lean-forward="true" selection-start-line="216" selection-start-column="27" selection-end-line="216" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -127,7 +122,6 @@
         <option value="$PROJECT_DIR$/_includes/header.html" />
         <option value="$PROJECT_DIR$/_sass/layouts/_documentation.scss" />
         <option value="$PROJECT_DIR$/_layouts/post.html" />
-        <option value="$PROJECT_DIR$/_sass/layouts/_default.scss" />
         <option value="$PROJECT_DIR$/_layouts/documentation.html" />
         <option value="$PROJECT_DIR$/_includes/deeplink.html" />
         <option value="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/class-structure.md" />
@@ -142,6 +136,7 @@
         <option value="$PROJECT_DIR$/_posts/2017-10-20-psr.md" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_posts/2017-10-29-composer.md" />
+        <option value="$PROJECT_DIR$/_sass/layouts/_default.scss" />
       </list>
     </option>
   </component>
@@ -183,7 +178,13 @@
             <path>
               <item name="farhad-weblog" type="b2602c69:ProjectViewProjectNode" />
               <item name="farhad-weblog" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
+              <item name="_sass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="farhad-weblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="farhad-weblog" type="462c0819:PsiDirectoryNode" />
+              <item name="_sass" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -253,12 +254,12 @@
       <workItem from="1509453995741" duration="18280000" />
       <workItem from="1509553750473" duration="15434000" />
       <workItem from="1509637955383" duration="10574000" />
-      <workItem from="1509688747289" duration="16007000" />
+      <workItem from="1509688747289" duration="16573000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149826000" />
+    <option name="totallyTimeSpent" value="150392000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -537,14 +538,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/layouts/_default.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/class-structure.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -684,12 +677,20 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
-            <caret line="6" column="38" lean-forward="true" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+            <caret line="6" column="38" lean-forward="false" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
             <folding />
           </first_editor>
           <second_editor>
             <js_state />
           </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/layouts/_default.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1857">
+          <caret line="216" column="27" lean-forward="true" selection-start-line="216" selection-start-column="27" selection-end-line="216" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
