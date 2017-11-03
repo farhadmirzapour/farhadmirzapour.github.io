@@ -47,7 +47,7 @@
         <ul role="menu" aria-hidden="true" aria-label="Navigation menu">
             <li role="menuitem" aria-label="Navigation menu item"><a href="{{ page.caturl | relative_url }}" class="doc-link" role="link" aria-label="{{ page.title }}">مقدمه</a></li>
             {% for item in site.documentation %}
-            {% if item.document-cat == page.document-cat %}
+            {% if item.caturl == page.caturl %}
             <li role="menuitem" aria-label="Navigation menu item"><a href="{{ item.url | relative_url }}" class="doc-link" role="link" aria-label="{{ item.title }}">{{ item.title }}</a></li>
             {% endif %}
             {% endfor %}
