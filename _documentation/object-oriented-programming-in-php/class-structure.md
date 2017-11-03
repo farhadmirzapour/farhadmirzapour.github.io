@@ -6,12 +6,9 @@ date:   2017-11-01 20:53:42 +0330
 jdate: چهارشنبه 10 آبان 1396
 caturl: 2017/11/01/object-oriented-programming-in-php.html
 # permalink: /:categories/:title.html
+thumbnail: phpOOPTutorialPAGE.png
 refrence: https://roocket.ir/articles/object-oriented-programming-in-php-part-1 <br> https://bshafiei.ir/Article_view/index/1XvocDexH9mhWT/برنامه-نویسی-شی-گرا-در-PHP
 ---
-<div align="center">
-<img src="/images/original/php-oop-course.png" alt="{{page.title}}" />
-</div>
-
 <h3>ساختار کلاس ها</h3>
 <p>در php یک کلاس با کلمه کلیدی (<span style="font-size: 16px;"><strong><span class="notespan">class</span></strong></span>) بوجود میاد و با یک اسپیس و تایپ یک اسم، شما اسم اون کلاس رو تعریف میکنید و در نهایت با قرار دادن براکت های باز و بسته ( <span style="font-size: 16px;"><strong><span class="notespan">{ }</span></strong></span>&nbsp;) کار یک class رو شروع میکنید . دقیقا مثل مثال زیر :
 </p>

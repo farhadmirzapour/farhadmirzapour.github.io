@@ -6,11 +6,9 @@ date:   2017-11-01 20:57:42 +0330
 jdate: چهارشنبه 10 آبان 1396
 caturl: 2017/11/01/object-oriented-programming-in-php.html
 # permalink: /:categories/:title.html
+thumbnail: phpOOPTutorialPAGE.png
 refrence: https://roocket.ir/articles/object-oriented-programming-in-php-part-4 <br> http://bshafiei.ir/Article_view/index/1XvocDexH9mhWT/برنامه-نویسی-شی-گرا-در-PHP <br>  http://w3-farsi.ir/?p=2432
 ---
-<div align="center">
-<img src="/images/original/php-oop-course.png" alt="{{page.title}}" />
-</div>
 <h3>وراثت (Inheritance)</h3>
 <p>
 در نظر بگیرید شما باید یک متدی با یک وظیفه ای خاصی بنویسید اما دقیقا این متد در پدر یا پدر پدر کلاس فعلیتون وجود داره خوب بنظرتون باید دوباره اون method رو بنویسید یا از اون متدی که در کلاس های پدر هست استفاده کنید . اول اینکه دوباره نویسی کدهاتون فوق العاده کم میشه و بعدش اینکه مدیریت روی کدهاتون به راحتی بالا میره . کیه که این روش کد نویسی رو نخواد . چون واقعا کار رو راحتتر میکنه .

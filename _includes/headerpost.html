@@ -1,0 +1,44 @@
+<div class="rc-DRTVBanner-new rc-DRTVBanner-bigsize">
+    <div style="background: url('/images/original/{{page.thumbnail}}'); " class="blurred_img"></div>
+    <div class="mask"></div>
+    <div class="bot"></div>
+    <div class="over">
+        <div class="container-rc">
+            <img class="image" src="/images/original/{{page.thumbnail}}" alt="{{page.title}}" height="190">
+            <div class="desktop-banner-container">
+                <h1 class="display-5-text headline">
+                    {% if page.cattitle == null %}
+                    {{ page.title | escape }}
+                    {% endif %}
+                    {% if page.cattitle != null %}
+                    {{ page.cattitle | escape }}
+                    {% endif %}</h1>
+                <!--<div class="tagslist"><ul class='lyda-tag-list'><li class='lyda-tag-list-title'>برچسب ها</li><li><a class="tags" href="/tag/لاراول">#لاراول</a></li><li><a class="tags" href="/tag/لاراول-5-5">#لاراول 5.5</a></li></ul></div>-->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--<div class="bread-crumb">-->
+<!--<div class="container   ">-->
+<!--<div class="pull-right ">-->
+<!--<div class="bread-button text-custom b-left">-->
+<!--انتشار : 2 ماه پیش-->
+<!--</div>-->
+<!--<a href="/category/article/" class="bread-button back-to-all b-left hidden-xs">همه مقالات</a>-->
+<!--<div class="cat-lable">-->
+<!--<a href="/category/article/laravel/">-->
+<!--لاراول-->
+<!--</a>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<script>
+    $(window).scroll(function(){
+        var sticky = $('.doc-menu'),
+            scroll = $(window).scrollTop();
+        if (scroll >= 101) {sticky.addClass('doc-header-scroll'); }
+        else {sticky.removeClass('doc-header-scroll'); };
+    });
+</script>

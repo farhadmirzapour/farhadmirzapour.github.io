@@ -50,6 +50,7 @@ body {
 }
 .time{
   font-size: 12px;
+  margin-top: 10px;
 }
 .notespan{
   color: #a31515;
@@ -110,4 +111,220 @@ a:active {
   table{
     width: 100%;
   }
+}
+
+.rc-DRTVBanner-new {
+  height: 160px;
+  position: relative;
+  margin-top: 0;
+  background: #fff;
+
+}
+
+.rc-DRTVBanner-new .blurred_img,
+.rc-DRTVBanner-new .bot,
+.rc-DRTVBanner-new .mask,
+.rc-DRTVBanner-new .over {
+  position: absolute;
+  left: 0;
+  width: 100%
+}
+
+.rc-DRTVBanner-new .bg {
+  padding: 28px 0 20px
+}
+
+.rc-DRTVBanner-new .cat-icon {
+  text-align: center;
+  font-size: 79px;
+  display: block;
+  color: #daffff;
+  text-shadow: 0 5px 7px rgba(0, 0, 0, .2)
+}
+
+.rc-DRTVBanner-new .cat-text {
+  text-align: center;
+  color: #fff;
+  font-size: 31px;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+  margin: 9px 0 6px
+}
+
+.rc-DRTVBanner-new .bot {
+  z-index: 2;
+  bottom: -10px;
+  background: #fff;
+  height: 10px
+}
+
+.rc-DRTVBanner-new .mask {
+  z-index: 1;
+  bottom: 0;
+  background: rgba(38, 41, 41, .52);
+  height: 100%
+}
+
+.rc-DRTVBanner-new .blurred_img {
+  z-index: 0;
+  top: 0;
+  height: 100%;
+  overflow: hidden;
+  background-size: cover!important;
+  background-position: center center!important;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px)
+}
+
+@media (max-width:1000px) {
+  .rc-DRTVBanner-new {
+    height: auto!important
+  }
+  .rc-DRTVBanner-new .over {
+    position: relative
+  }
+}
+
+.rc-DRTVBanner-new .over {
+  z-index: 2;
+  right: 0;
+  height: 100%
+}
+
+.rc-DRTVBanner-new .image {
+  z-index: 1;
+  position: absolute;
+  display: block;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .1)
+}
+
+.rcpostcontainerimg .rc-DRTVBanner-new .image {
+  left: 130px;
+}
+
+.rcdoccontainerimg .rc-DRTVBanner-new .image {
+  left: 40px;
+}
+
+@media (max-width:1200px) {
+  .rc-DRTVBanner-new .image {
+    width: 360px
+  }
+}
+
+@media (max-width:1000px) {
+  .rc-DRTVBanner-new .image {
+    position: relative;
+    display: table-row;
+    margin: 20px auto 0;
+    width: 100%
+  }
+}
+
+.rc-DRTVBanner-new .container-rc {
+  position: relative;
+  vertical-align: baseline
+}
+
+.rc-DRTVBanner-new .desktop-banner-container {
+  position: absolute;
+  right: 0
+}
+
+.rc-DRTVBanner-new .desktop-banner-container .tagslist {
+  position: absolute;
+  bottom: 3px;
+  font-size: 12px;
+  right: 25px;
+  z-index: 555
+}
+
+.rc-DRTVBanner-new .desktop-banner-container .tagslist .lyda-tag-list {
+  list-style: none;
+  padding: 0;
+  margin: 0
+}
+
+.rc-DRTVBanner-new .desktop-banner-container .tagslist .lyda-tag-list * {
+  font-weight: 100
+}
+
+.rc-DRTVBanner-new .desktop-banner-container .tagslist .lyda-tag-list li {
+  display: inline-block;
+  color: #fff
+}
+
+.rc-DRTVBanner-new .desktop-banner-container .tagslist .lyda-tag-list li:before {
+  content: '|'
+}
+
+.rc-DRTVBanner-new .desktop-banner-container .tagslist .lyda-tag-list li a {
+  display: inline-block;
+  margin: 0 5px;
+  color: #fff
+}
+
+.rc-DRTVBanner-new .desktop-banner-container .tagslist .lyda-tag-list li.lyda-tag-list-title {
+  padding-left: 10px
+}
+
+.rc-DRTVBanner-new .desktop-banner-container .tagslist .lyda-tag-list li.lyda-tag-list-title:before {
+  content: ''
+}
+
+.rc-DRTVBanner-new .desktop-banner-container h1 {
+  font-size: 26px;
+  color: #fff;
+  padding-top: 5px;
+  vertical-align: middle;
+  margin-top: 50px!important;
+  font-family: IRANsans;
+  font-weight: 500;
+  max-width: 560px;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, .1)
+}
+
+.rcpostcontainerimg  h1  {
+  margin-right: 130px !important;
+}
+.rcdoccontainerimg  h1 {
+  margin-right: 35px !important;
+}
+
+@media (max-width:1200px) {
+  .rc-DRTVBanner-new .desktop-banner-container h1 {
+    max-width: 500px
+  }
+}
+
+@media (max-width:1000px) {
+  .rc-DRTVBanner-new .desktop-banner-container .tagslist {
+    position: relative;
+    text-align: center;
+    bottom: 22px
+  }
+  .rc-DRTVBanner-new .desktop-banner-container .tagslist .lyda-tag-list {
+    position: relative;
+    text-align: center
+  }
+  .rc-DRTVBanner-new .desktop-banner-container {
+    position: relative
+  }
+  .rc-DRTVBanner-new .desktop-banner-container h1 {
+    font-weight: 500;
+    margin-top: 0!important;
+    text-align: center;
+    font-size: 20px;
+    line-height: 32px;
+    max-width: 100%
+  }
+}
+.rc-DRTVBanner-bigsize {
+  height: 160px
+}
+
+.doc-header-scroll {
+  padding-top:0px !important;
 }

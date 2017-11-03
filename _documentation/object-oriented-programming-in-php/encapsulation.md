@@ -6,11 +6,9 @@ date:   2017-11-01 20:56:42 +0330
 jdate: چهارشنبه 10 آبان 1396
 caturl: 2017/11/01/object-oriented-programming-in-php.html
 # permalink: /:categories/:title.html
+thumbnail: phpOOPTutorialPAGE.png
 refrence: https://roocket.ir/articles/object-oriented-programming-in-php-part-3
 ---
-<div align="center">
-<img src="/images/original/php-oop-course.png" alt="{{page.title}}" />
-</div>
 <h3>کپسوله سازی (Encapsulation)</h3>
 <p>
 کپسوله سازی همون پنهان سازی اطلاعاته اما ما چرا باید اطلاعاتی رو پنهان سازی کنیم . در جلسه قبل اگه یادتون باشه من دوتا method درست کردم به اسم های set و get که هر کدوم کار خودشون رو انجام می دادن یعنی یکی مقداردهی property مون رو انجام میداد و یکی مقدار property رو برامون بر میگردوند اما چرا باید اینطوری باشه . این سوالیه که منم داشتم چون ما به راحتی میتونیم از خود property استفاده کنیم و مقداردهی و چاپش کنیم اما این درست نیست . گاهی property ها و method های حساسی وجود داره که قابل استفاده در object ها نیستن ! چرا نیستن ؟ چون پنهان سازی شدن . اگه یادتون باشه در جلسه قبلی سه کلمه کلیدی public , private و protected رو معرفی کردم اما فقط از public استفاده کردم و گفتم تو این جلسه میگم اینا به چه کاری میان بزارین با تعریف کردن هر کدوم اینا به نتیجه برسیم .

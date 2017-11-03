@@ -6,12 +6,9 @@ date:   2017-11-02 19:42:42 +0330
 jdate: پنج شنبه 11 آبان 1396
 caturl: 2017/11/01/object-oriented-programming-in-php.html
 # permalink: /:categories/:title.html
+thumbnail: phpOOPTutorialPAGE.png
 refrence: http://haamid.ir/کلاسهای-abstract-یا-انتزاعی-در-php/ <br> http://alihossein.ir/tutorials/آموزش-کلاس-های-abstract
 ---
-<div align="center">
-<img src="/images/original/php-oop-course.png" alt="{{page.title}}" />
-</div>
-
 <h3> کلاس های Abstract (انتزاعی)</h3>
 <p>توجه کنید که کلاس هایی که از نوع abstract تعریف بشن ، نمیشه ازشون شی ای ساخت و تنها می توان از آنها مشتق گرفت.
 </p>

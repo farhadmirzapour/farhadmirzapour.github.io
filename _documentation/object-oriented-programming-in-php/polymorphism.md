@@ -6,12 +6,9 @@ date:   2017-11-02 21:50:42 +0330
 jdate: پنج شنبه 11 آبان 1396
 caturl: 2017/11/01/object-oriented-programming-in-php.html
 # permalink: /:categories/:title.html
+thumbnail: phpOOPTutorialPAGE.png
 refrence: http://tahlildadeh.com/ArticleDetails/آموزش-چند-ریختی-Polymorphism-در-PHP
 ---
-<div align="center">
-<img src="/images/original/php-oop-course.png" alt="{{page.title}}" />
-</div>
-
 <h3>چندریختی (Polymorphism) در PHP</h3>
 <p>
 بر اساس اصل چندریختی، متدهایی که در کلاس های مختلف عملیات یکسانی را انجام می دهند، باید نام یکسانی هم داشته باشند. توسعه دهنده می تواند با بهره گیری از این اصل کد اپلیکیشن خود را به صورت منسجم و با قابلیت استفاده ی آسان تعریف کند.

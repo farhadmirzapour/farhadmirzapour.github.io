@@ -2,15 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e64ae264-382d-40a9-aa7a-eb57cef08f24" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/abstract-class.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/interface.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/polymorphism.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/headerpost.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/original/827gitta_web_ir_PSR-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/original/iudex.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/abstract-class.md" afterPath="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/abstract-class.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/class-structure.md" afterPath="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/class-structure.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/encapsulation.md" afterPath="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/encapsulation.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/inheritance.md" afterPath="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/inheritance.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/refrence.html" afterPath="$PROJECT_DIR$/_includes/refrence.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/interface.md" afterPath="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/interface.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/magic-methods.md" afterPath="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/magic-methods.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/polymorphism.md" afterPath="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/polymorphism.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/documentation.html" afterPath="$PROJECT_DIR$/_layouts/documentation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="$PROJECT_DIR$/_layouts/post.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-10-20-psr.md" afterPath="$PROJECT_DIR$/_posts/2017-10-20-psr.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-10-29-composer.md" afterPath="$PROJECT_DIR$/_posts/2017-10-29-composer.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-10-31-object-oriented-programming-in-php.md" afterPath="$PROJECT_DIR$/_posts/2017-10-31-object-oriented-programming-in-php.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/back-to-top.js" afterPath="$PROJECT_DIR$/assets/js/back-to-top.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/layouts/_default.scss" afterPath="$PROJECT_DIR$/_sass/layouts/_default.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/layouts/_documentation.scss" afterPath="$PROJECT_DIR$/_sass/layouts/_documentation.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,7 +40,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="160">
-                <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="68" />
+                <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -44,7 +55,89 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="160">
-                <caret line="8" column="83" lean-forward="false" selection-start-line="8" selection-start-column="83" selection-end-line="8" selection-end-column="83" />
+                <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="magic-methods.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/magic-methods.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="160">
+                <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-10-31-object-oriented-programming-in-php.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-10-31-object-oriented-programming-in-php.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="160">
+                <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="headerpost.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/headerpost.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-10-20-psr.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-10-20-psr.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="80">
+                <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="82" column="31" lean-forward="false" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-10-29-composer.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-10-29-composer.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="220">
+                <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -59,7 +152,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="160">
-                <caret line="8" column="197" lean-forward="false" selection-start-line="8" selection-start-column="197" selection-end-line="8" selection-end-column="197" />
+                <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -69,12 +162,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-10-31-object-oriented-programming-in-php.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2017-10-31-object-oriented-programming-in-php.md">
+      <file leaf-file-name="encapsulation.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/encapsulation.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="180">
-                <caret line="9" column="159" lean-forward="false" selection-start-line="9" selection-start-column="159" selection-end-line="9" selection-end-column="159" />
+              <first_editor relative-caret-position="160">
+                <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -95,8 +188,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>posi</find>
-      <find>.container</find>
       <find>1.3</find>
       <find>7px 0</find>
       <find>avatar</find>
@@ -108,7 +199,6 @@
       <find>description</find>
       <find>text-decoration</find>
       <find>&amp;nbsp;</find>
-      <find>container</find>
       <find>.doc</find>
       <find>.doc-container</find>
       <find>hamburgerMenu()</find>
@@ -125,6 +215,9 @@
       <find>style=&quot;color: rgb(0, 0, 128);&quot;</find>
       <find>: &lt;</find>
       <find>-&amp;nbsp;&lt;</find>
+      <find>container</find>
+      <find>.doc-menu</find>
+      <find>time</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -144,10 +237,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_site/index.html" />
-        <option value="$PROJECT_DIR$/_site/blog/page2/index.html" />
         <option value="$PROJECT_DIR$/_site/blog/index.html" />
-        <option value="$PROJECT_DIR$/_layouts/blog.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_posts/2017-10-23-psr.md" />
         <option value="$PROJECT_DIR$/blog/index.html" />
@@ -170,31 +260,34 @@
         <option value="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/part1.md" />
         <option value="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/introduction.md" />
         <option value="$PROJECT_DIR$/_sass/mvxtheme.scss" />
-        <option value="$PROJECT_DIR$/_includes/deeplink.html" />
         <option value="$PROJECT_DIR$/_sass/layouts/_post.scss" />
-        <option value="$PROJECT_DIR$/_sass/layouts/_documentation.scss" />
-        <option value="$PROJECT_DIR$/_posts/2017-10-29-composer.md" />
         <option value="$PROJECT_DIR$/_posts/2017-10-28-psr2.md" />
         <option value="$PROJECT_DIR$/_posts/2017-10-27-psr.md" />
         <option value="$PROJECT_DIR$/_posts/2017-10-24-psr.md" />
         <option value="$PROJECT_DIR$/_posts/2017-10-20-welcome-to-jekyll.markdown" />
-        <option value="$PROJECT_DIR$/_layouts/post.html" />
-        <option value="$PROJECT_DIR$/_layouts/documentation.html" />
         <option value="$PROJECT_DIR$/_sass/includes/_header.scss" />
-        <option value="$PROJECT_DIR$/_includes/header.html" />
         <option value="$PROJECT_DIR$/_sass/layouts/_blog.scss" />
-        <option value="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/encapsulation.md" />
-        <option value="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/magic-methods.md" />
+        <option value="$PROJECT_DIR$/_includes/refrence.html" />
+        <option value="$PROJECT_DIR$/_layouts/blog.html" />
+        <option value="$PROJECT_DIR$/_includes/headerpost.md" />
+        <option value="$PROJECT_DIR$/_includes/header.html" />
+        <option value="$PROJECT_DIR$/_sass/layouts/_documentation.scss" />
+        <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/_sass/layouts/_default.scss" />
+        <option value="$PROJECT_DIR$/_layouts/documentation.html" />
+        <option value="$PROJECT_DIR$/_includes/deeplink.html" />
+        <option value="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/class-structure.md" />
+        <option value="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/abstract-class.md" />
+        <option value="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/encapsulation.md" />
+        <option value="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/inheritance.md" />
+        <option value="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/interface.md" />
+        <option value="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/magic-methods.md" />
+        <option value="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/polymorphism.md" />
+        <option value="$PROJECT_DIR$/_posts/2017-10-31-object-oriented-programming-in-php.md" />
+        <option value="$PROJECT_DIR$/_includes/headerpost.html" />
         <option value="$PROJECT_DIR$/_posts/2017-10-20-psr.md" />
         <option value="$PROJECT_DIR$/_config.yml" />
-        <option value="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/abstract-class.md" />
-        <option value="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/interface.md" />
-        <option value="$PROJECT_DIR$/_includes/refrence.html" />
-        <option value="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/polymorphism.md" />
-        <option value="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/class-structure.md" />
-        <option value="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/inheritance.md" />
-        <option value="$PROJECT_DIR$/_posts/2017-10-31-object-oriented-programming-in-php.md" />
+        <option value="$PROJECT_DIR$/_posts/2017-10-29-composer.md" />
       </list>
     </option>
   </component>
@@ -224,6 +317,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -234,25 +329,12 @@
             <path>
               <item name="farhad-weblog" type="b2602c69:ProjectViewProjectNode" />
               <item name="farhad-weblog" type="462c0819:PsiDirectoryNode" />
-              <item name="_documentation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="farhad-weblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="farhad-weblog" type="462c0819:PsiDirectoryNode" />
-              <item name="_documentation" type="462c0819:PsiDirectoryNode" />
-              <item name="object-oriented-programming-in-php" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="farhad-weblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="farhad-weblog" type="462c0819:PsiDirectoryNode" />
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -265,13 +347,13 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\farhad-weblog\blog" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\farhad-weblog\_documentation\object-oriented-programming-in-php" />
       <recent name="E:\farhad-weblog\_documentation\test" />
       <recent name="E:\farhad-weblog\_posts" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\farhad-weblog\blog" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -316,12 +398,13 @@
       <workItem from="1509300535761" duration="3383000" />
       <workItem from="1509453995741" duration="18280000" />
       <workItem from="1509553750473" duration="15434000" />
-      <workItem from="1509637955383" duration="9975000" />
+      <workItem from="1509637955383" duration="10574000" />
+      <workItem from="1509688747289" duration="15690000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133220000" />
+    <option name="totallyTimeSpent" value="149509000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -356,20 +439,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_layouts/page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_site/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3663">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_site/blog/page2/index.html" />
     <entry file="file://$PROJECT_DIR$/_site/blog/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -403,13 +472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3100">
           <caret line="155" column="3" lean-forward="false" selection-start-line="155" selection-start-column="3" selection-end-line="155" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/layouts/_hackfest.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -478,21 +540,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_documentation/test/part1.md" />
-    <entry file="file://$PROJECT_DIR$/_includes/doc-scroll.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/introduction.md" />
-    <entry file="file://$PROJECT_DIR$/_layouts/blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_sass/mvxtheme.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -500,24 +548,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/layouts/_documentation.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/head.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
           <caret line="29" column="93" lean-forward="false" selection-start-line="29" selection-start-column="93" selection-end-line="29" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/deeplink.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -530,40 +564,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2017-10-20-welcome-to-jekyll.markdown" />
     <entry file="file://$PROJECT_DIR$/_posts/2017-10-28-psr2.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/2017-10-29-composer.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="160">
-            <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="90" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/documentation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="43" column="31" lean-forward="false" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_sass/layouts/_blog.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
@@ -578,31 +578,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/magic-methods.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="80">
-            <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/layouts/_default.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="59" column="18" lean-forward="false" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/404.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
           <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -620,11 +599,26 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2017-10-24-psr.md" />
-    <entry file="file://$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/encapsulation.md">
+    <entry file="file://$PROJECT_DIR$/_includes/refrence.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="19" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/headerpost.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="120">
-            <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="58" />
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor>
@@ -633,11 +627,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-10-20-psr.md">
+    <entry file="file://$PROJECT_DIR$/_includes/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="37" column="28" lean-forward="false" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/layouts/_documentation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2423">
+          <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/documentation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="29" column="35" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/layouts/_hackfest.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="380" column="16" lean-forward="false" selection-start-line="380" selection-start-column="16" selection-end-line="380" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/deeplink.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/doc-scroll.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/layouts/_default.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/class-structure.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="3" />
+          <first_editor relative-caret-position="160">
+            <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="33" />
             <folding />
           </first_editor>
           <second_editor>
@@ -649,8 +707,8 @@
     <entry file="file://$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/abstract-class.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="120">
-            <caret line="126" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+          <first_editor relative-caret-position="160">
+            <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
             <folding />
           </first_editor>
           <second_editor>
@@ -659,53 +717,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/refrence.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="837">
-          <caret line="59" column="32" lean-forward="false" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/interface.md">
+    <entry file="file://$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/encapsulation.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="160">
-            <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="68" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/polymorphism.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="160">
-            <caret line="8" column="83" lean-forward="false" selection-start-line="8" selection-start-column="83" selection-end-line="8" selection-end-column="83" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/class-structure.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="180">
-            <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
             <folding />
           </first_editor>
           <second_editor>
@@ -718,7 +734,46 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="160">
-            <caret line="8" column="197" lean-forward="false" selection-start-line="8" selection-start-column="197" selection-end-line="8" selection-end-column="197" />
+            <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/interface.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="160">
+            <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/magic-methods.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="160">
+            <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/polymorphism.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="160">
+            <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
             <folding />
           </first_editor>
           <second_editor>
@@ -730,8 +785,52 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-10-31-object-oriented-programming-in-php.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="180">
-            <caret line="9" column="159" lean-forward="false" selection-start-line="9" selection-start-column="159" selection-end-line="9" selection-end-column="159" />
+          <first_editor relative-caret-position="160">
+            <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/headerpost.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-10-20-psr.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="80">
+            <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="82" column="31" lean-forward="false" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-10-29-composer.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="220">
+            <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
             <folding />
           </first_editor>
           <second_editor>

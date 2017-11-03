@@ -6,11 +6,9 @@ date:   2017-11-01 20:59:42 +0330
 jdate: چهارشنبه 10 آبان 1396
 caturl: 2017/11/01/object-oriented-programming-in-php.html
 # permalink: /:categories/:title.html
+thumbnail: phpOOPTutorialPAGE.png
 refrence: https://roocket.ir/articles/object-oriented-programming-in-php-part-5
 ---
-<div align="center">
-<img src="/images/original/php-oop-course.png" alt="{{page.title}}" />
-</div>
 <h3>متدهای جادوئی در شی گرایی php</h3>
 <p>
 php برای ساده تر کردن بعضی از کارها در کلاس ها یک سری متدهای خاص و ویژه در شی گرایی قرار داده که این موضوع به توسعه دهندگان اجازه میده تا تعدادی از کارهای مفید رو به سهولت انجام بدن .

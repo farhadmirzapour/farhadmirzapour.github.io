@@ -6,12 +6,9 @@ date:   2017-11-02 21:06:42 +0330
 jdate: پنج شنبه 11 آبان 1396
 caturl: 2017/11/01/object-oriented-programming-in-php.html
 # permalink: /:categories/:title.html
+thumbnail: phpOOPTutorialPAGE.png
 refrence: http://haamid.ir/مفهوم-و-کاربرد-اینترفیس-interface-در-php/ <br> http://alihossein.ir/tutorials/آموزش-interface
 ---
-<div align="center">
-<img src="/images/original/php-oop-course.png" alt="{{page.title}}" />
-</div>
-
 <h3> مفهوم و کاربرد اینترفیس – interface در PHP</h3>
 <p>
 قبلا در مورد کلاسهای abstract در PHP مطلبی نوشتم ، کلاسهای انتزاعی یا abstract کلاسهایی هستند که قابل نمونه گیری نیستند و میتونیم درون کلاسهای انتزاعی متد هایی بنویسیم و در کلاسهایی که از اون مشتق شدن ازش استفاده کنیم. اینترفیس ها دقیقا مثل کلاسهای انتزاعی هستند ، با این تفاوت که در اینترفیس ها هیچ متدی نمیتونه دارای بدنه باشه. اولش خیلی عجیب به نظر میرسه… وقتی متدها بدنه نداشته باشن ، به چه دردی میخودن؟

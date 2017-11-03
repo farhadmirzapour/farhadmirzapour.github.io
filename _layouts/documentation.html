@@ -2,7 +2,11 @@
 layout: default
 typepage: document
 ---
+<div class="rcdoccontainerimg">
+{% include headerpost.html %}
+</div>
 <div class="doc-container">
+
     <div class="doc-menu">
         <ul>
             <li>
@@ -24,22 +28,12 @@ typepage: document
 
     <article class="documentation">
         <header class="doc-header">
-            <h3>
-                {% if page.cattitle == null %}
-                {{ page.title | escape }}
-                {% endif %}
-                {% if page.cattitle != null %}
-                {{ page.cattitle | escape }}
-                {% endif %}
-            </h3>
-            <p class="meta">
             <div class="time">
                     تاریخ :      {{ page.jdate}}
             </div>
                 {% if page.author %}
                 • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
                 {% endif %}
-            </p>
         </header>
         <section class="anchored">
             {{ content }}
