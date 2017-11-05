@@ -37,17 +37,34 @@
     <!--var ARTICLE_AUTHORS = btoa(encodeURI('[{"name": "name one", "email":"some_mail@site.com","type": "internal"}, {"name":"name two", "email":"some_other_mail@site.com","type": "external"}]'));-->
     <!--create_vuukle_platform(VUUKLE_API_KEY, UNIQUE_ARTICLE_ID, "0", SECTION_TAGS, ARTICLE_TITLE, TRANSLITERATE_LANGUAGE_CODE, "1", "", GA_CODE, VUUKLE_COL_CODE, ARTICLE_AUTHORS);-->
 <!--</script>-->
-<style>
-    div[id^='comments'], div[id^='comments'] iframe {
-        width: 100% !important;
-    }
-</style>
-<script src="https://apis.google.com/js/plusone.js"></script>
-<div id="comments"></div>
-<script>
-    gapi.comments.render('comments', {
-        href: window.location,
-        first_party_property: 'BLOGGER',
-        view_type: 'FILTERED_POSTMOD'
-    });
+<!--<style>-->
+    <!--div[id^='comments'], div[id^='comments'] iframe {-->
+        <!--width: 100% !important;-->
+    <!--}-->
+<!--</style>-->
+<!--<script src="https://apis.google.com/js/plusone.js"></script>-->
+<!--<div id="comments"></div>-->
+<!--<script>-->
+    <!--gapi.comments.render('comments', {-->
+        <!--href: window.location,-->
+        <!--first_party_property: 'BLOGGER',-->
+        <!--view_type: 'FILTERED_POSTMOD',-->
+        <!--lang: 'fa-IR'-->
+    <!--});-->
+<!--</script>-->
+
+<div id="wpac-comment"></div>
+<script type="text/javascript">
+    wpac_init = window.wpac_init || [];
+    wpac_init.push({widget: 'Comment', id: 7878});
+    (function() {
+        if ('WIDGETPACK_LOADED' in window) return;
+        WIDGETPACK_LOADED = true;
+        var mc = document.createElement('script');
+        mc.type = 'text/javascript';
+        mc.async = true;
+        mc.src = 'https://embed.widgetpack.com/widget.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
+    })();
 </script>
+<a href="https://widgetpack.com" class="wpac-cr">Comments System WIDGET PACK</a>
