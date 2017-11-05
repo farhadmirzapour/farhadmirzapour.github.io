@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e64ae264-382d-40a9-aa7a-eb57cef08f24" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-11-05-anonymous-functions.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-11-05-namespace.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/comments.html" afterPath="$PROJECT_DIR$/_includes/comments.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,32 +16,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2017-11-05-anonymous-functions.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2017-11-05-anonymous-functions.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="383">
-                <caret line="251" column="29" lean-forward="false" selection-start-line="251" selection-start-column="29" selection-end-line="251" selection-end-column="29" />
-                <folding />
-              </first_editor>
-              <second_editor>
-                <js_state />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017-11-05-namespace.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2017-11-05-namespace.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="196">
-                <caret line="197" column="0" lean-forward="false" selection-start-line="197" selection-start-column="0" selection-end-line="199" selection-end-column="6" />
-                <folding />
-              </first_editor>
-              <second_editor>
-                <js_state />
-              </second_editor>
+      <file leaf-file-name="comments.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_includes/comments.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="497">
+              <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -66,7 +44,6 @@
       <find>box</find>
       <find>description</find>
       <find>text-decoration</find>
-      <find>&amp;nbsp;</find>
       <find>.doc</find>
       <find>.doc-container</find>
       <find>hamburgerMenu()</find>
@@ -89,11 +66,13 @@
       <find>ima</find>
       <find>jpg</find>
       <find>png</find>
+      <find>&amp;nbsp;</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>class=&quot;notespan&quot;</replace>
       <replace>:&lt;</replace>
+      <replace />
     </replaceStrings>
     <dirStrings>
       <dir>E:\farhad-weblog\.sass-cache</dir>
@@ -154,11 +133,11 @@
         <option value="$PROJECT_DIR$/_documentation/PHP7/scalar-type.md" />
         <option value="$PROJECT_DIR$/_includes/header.html" />
         <option value="$PROJECT_DIR$/_posts/2017-10-20-psr.md" />
-        <option value="$PROJECT_DIR$/_includes/comments.html" />
         <option value="$PROJECT_DIR$/_layouts/documentation.html" />
         <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/_posts/2017-11-05-namespace.md" />
         <option value="$PROJECT_DIR$/_posts/2017-11-05-anonymous-functions.md" />
+        <option value="$PROJECT_DIR$/_includes/comments.html" />
       </list>
     </option>
   </component>
@@ -198,7 +177,7 @@
             <path>
               <item name="farhad-weblog" type="b2602c69:ProjectViewProjectNode" />
               <item name="farhad-weblog" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
+              <item name="_includes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -276,12 +255,12 @@
       <workItem from="1509724736844" duration="238000" />
       <workItem from="1509733703338" duration="846000" />
       <workItem from="1509813831043" duration="3889000" />
-      <workItem from="1509896880691" duration="6869000" />
+      <workItem from="1509896880691" duration="7816000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169338000" />
+    <option name="totallyTimeSpent" value="170285000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -642,14 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/comments.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/documentation.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="820">
@@ -726,6 +697,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-11-05-anonymous-functions.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="383">
+            <caret line="251" column="29" lean-forward="false" selection-start-line="251" selection-start-column="29" selection-end-line="251" selection-end-column="29" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2017-11-05-namespace.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -739,16 +723,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-11-05-anonymous-functions.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="383">
-            <caret line="251" column="29" lean-forward="false" selection-start-line="251" selection-start-column="29" selection-end-line="251" selection-end-column="29" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
+    <entry file="file://$PROJECT_DIR$/_includes/comments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
