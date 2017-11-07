@@ -11,7 +11,7 @@ layout: default
         {% for post in site.posts %}
         <div class="box_section-item" itemscope itemtype="http://schema.org/Product" data-course-id="53" id="course_53">
             <div class="item_img">
-                <a href="/series/master-reactjs">
+                <a href="{{ post.url | relative_url }}" title="{{ post.title | escape }}" >
                     {% if post.thumbnail %}
                     <img src="/images/original/{{post.thumbnail}}" alt="{{post.title}}" />
                     {% endif %}
