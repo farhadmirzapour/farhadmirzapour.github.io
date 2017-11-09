@@ -20,9 +20,9 @@ refrence: https://alihossein.ir/tutorials/آموزش-autoloading-کلاس-compos
 
 <p>3روش autoloading در composer عبارتند از :</p>
 <ul>
-<li><a href="#روش-file-based-autoloading" >File Based Autoloading</a></li>
-<li><a href="#روش-classmap-based-autoloading" >Classmap Based Autoloading</a></li>
-<li><a href="#روش-psr-4-based-autoloading" >PSR-4 Autoloading</a></li>
+<li><a class="anchorjs" title="روش-file-based-autoloading" href="#" >File Based Autoloading</a></li>
+<li><a class="anchorjs" title="روش-classmap-based-autoloading" href="#" >Classmap Based Autoloading</a></li>
+<li><a class="anchorjs" title="روش-psr-4-based-autoloading" href="#" >PSR-4 Autoloading</a></li>
 </ul>
 <p>سایت اصلی composer روش&nbsp;PSR-4 Autoloading را پیشنهاد می کند اما ما در این مقاله &nbsp;هر 4 روش را بررسی می نماییم .</p>
 
