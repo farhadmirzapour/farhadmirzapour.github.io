@@ -9,16 +9,16 @@
 
     (function($){
         if(window.location.hash) {
-            var hash = decodeURIComponent(window.location.hash.substr(1));
-            gotohash($('a[href="#' + hash + '"]').offset().top);
+            var hash = decodeURIComponent(window.location.hash);
+            gotohash($(hash).offset().top);
         }
         $('a.anchorjs-link').click(function(){
-            gotohash($(this).offset().top);
+			gotohash($(this).offset().top);
         });
-		$('a.anchorjs').click(function(){
-			var id = $(this).attr('title');
-            gotohash($('#'+id).offset().top);
-        });
+        $('a.anchorjs').click(function(){
+			var id = '#' + $(this).attr('title');
+			gotohash($(id).offset().top);
+        });		
         function gotohash(top){
             var headerHeight = 70; // Get fixed header height
             $('html,body').animate({
