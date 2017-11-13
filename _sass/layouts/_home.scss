@@ -1,7 +1,11 @@
 /**
  * Copyright (c) 2017 MvvmCross
  */
+.titlesection{
+  background: rgba(0,0,0,0.5);
+  border-radius: 10px;
 
+}
 .home {
   > section {
     padding-top: $home-section-padding;
@@ -33,13 +37,14 @@
       font-size: 1.5rem;
     }
   }
-
   > .landing {
     color: #FFFFFF;
     padding-top: $home-landing-padding;
     padding-bottom: $home-landing-padding;
     background: url($baseurl + "/assets/img/intro-bg.jpg") no-repeat center center;
-
+    background-size: cover;
+    background-position: top;
+    height: 270px;
     .start-button {
       background-color: $brand-color;
       border-radius: 4px;

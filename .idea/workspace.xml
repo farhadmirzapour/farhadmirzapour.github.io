@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ca62077-7c47-486a-90d9-36a917269049" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_documentation/solid-object-oriented-design/liskov-substitution-principle.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_documentation/solid-object-oriented-design/open-closed-principle.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_documentation/solid-object-oriented-design/single-responsibility-principle.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-11-10-solid-object-oriented-design.md" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/farhad-weblog.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/intro-bg.jpg" afterPath="$PROJECT_DIR$/assets/img/intro-bg.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/abstract-class.md" afterPath="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/abstract-class.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/inheritance.md" afterPath="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/inheritance.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/polymorphism.md" afterPath="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/polymorphism.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/deeplink.html" afterPath="$PROJECT_DIR$/_includes/deeplink.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/scripts.html" afterPath="$PROJECT_DIR$/_includes/scripts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-10-31-object-oriented-programming-in-php.md" afterPath="$PROJECT_DIR$/_posts/2017-10-31-object-oriented-programming-in-php.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/layouts/_default.scss" afterPath="$PROJECT_DIR$/_sass/layouts/_default.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/home.html" afterPath="$PROJECT_DIR$/_layouts/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/layouts/_home.scss" afterPath="$PROJECT_DIR$/_sass/layouts/_home.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,12 +19,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="liskov-substitution-principle.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="liskov-substitution-principle.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_documentation/solid-object-oriented-design/liskov-substitution-principle.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="228">
-                <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+                <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -44,15 +34,65 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="mvxtheme.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_sass/mvxtheme.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="49" column="21" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_home.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_sass/layouts/_home.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" column="37" lean-forward="false" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>&amp;nbsp;</find>
+      <find>landing</find>
+      <find>$home-landing-padding</find>
     </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
+    <dirStrings>
+      <dir>E:\farhadnote\_sass</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,6 +110,8 @@
         <option value="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/abstract-class.md" />
         <option value="$PROJECT_DIR$/_posts/2017-10-31-object-oriented-programming-in-php.md" />
         <option value="$PROJECT_DIR$/_documentation/solid-object-oriented-design/liskov-substitution-principle.md" />
+        <option value="$PROJECT_DIR$/_layouts/home.html" />
+        <option value="$PROJECT_DIR$/_sass/layouts/_home.scss" />
       </list>
     </option>
   </component>
@@ -100,7 +142,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -111,19 +153,19 @@
             <path>
               <item name="farhadnote" type="b2602c69:ProjectViewProjectNode" />
               <item name="farhadnote" type="462c0819:PsiDirectoryNode" />
-              <item name="_documentation" type="462c0819:PsiDirectoryNode" />
+              <item name="_sass" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="farhadnote" type="b2602c69:ProjectViewProjectNode" />
               <item name="farhadnote" type="462c0819:PsiDirectoryNode" />
-              <item name="_documentation" type="462c0819:PsiDirectoryNode" />
-              <item name="solid-object-oriented-design" type="462c0819:PsiDirectoryNode" />
+              <item name="_sass" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -162,12 +204,13 @@
       <updated>1510295192682</updated>
       <workItem from="1510295194096" duration="13554000" />
       <workItem from="1510343763232" duration="1112000" />
-      <workItem from="1510506387380" duration="10490000" />
+      <workItem from="1510506387380" duration="11085000" />
+      <workItem from="1510600912508" duration="2380000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25156000" />
+    <option name="totallyTimeSpent" value="28131000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -176,6 +219,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24553572" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -187,7 +231,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -202,12 +245,24 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/_documentation/solid-object-oriented-design/liskov-substitution-principle.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="260">
+            <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_documentation/solid-object-oriented-design/open-closed-principle.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="420">
             <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor>
             <js_state />
@@ -220,7 +275,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="2420">
             <caret line="121" column="29" lean-forward="false" selection-start-line="121" selection-start-column="29" selection-end-line="121" selection-end-column="29" />
-            <folding />
           </first_editor>
           <second_editor>
             <js_state />
@@ -233,7 +287,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="1960">
             <caret line="98" column="7" lean-forward="false" selection-start-line="98" selection-start-column="7" selection-end-line="98" selection-end-column="7" />
-            <folding />
           </first_editor>
           <second_editor>
             <js_state />
@@ -246,7 +299,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="2920">
             <caret line="146" column="0" lean-forward="false" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor>
             <js_state />
@@ -338,7 +390,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="240">
             <caret line="121" column="29" lean-forward="false" selection-start-line="121" selection-start-column="29" selection-end-line="121" selection-end-column="29" />
-            <folding />
           </first_editor>
           <second_editor>
             <js_state />
@@ -351,7 +402,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="420">
             <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor>
             <js_state />
@@ -364,7 +414,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="180">
             <caret line="9" column="129" lean-forward="false" selection-start-line="9" selection-start-column="129" selection-end-line="9" selection-end-column="129" />
-            <folding />
           </first_editor>
           <second_editor>
             <js_state />
@@ -377,7 +426,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="340">
             <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="19" selection-end-column="6" />
-            <folding />
           </first_editor>
           <second_editor>
             <js_state />
@@ -390,7 +438,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="180">
             <caret line="9" column="198" lean-forward="false" selection-start-line="9" selection-start-column="198" selection-end-line="9" selection-end-column="243" />
-            <folding />
           </first_editor>
           <second_editor>
             <js_state />
@@ -403,7 +450,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="180">
             <caret line="9" column="205" lean-forward="false" selection-start-line="9" selection-start-column="205" selection-end-line="9" selection-end-column="205" />
-            <folding />
           </first_editor>
           <second_editor>
             <js_state />
@@ -416,7 +462,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="-420">
             <caret line="9" column="168" lean-forward="false" selection-start-line="9" selection-start-column="168" selection-end-line="9" selection-end-column="168" />
-            <folding />
           </first_editor>
           <second_editor>
             <js_state />
@@ -428,12 +473,49 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="228">
-            <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+            <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
             <folding />
           </first_editor>
           <second_editor>
             <js_state />
           </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/mvxtheme.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="49" column="21" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="37" lean-forward="false" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/layouts/_home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
