@@ -7,7 +7,7 @@ jdate: جمعه 19 آبان 1396
 caturl: 2017/11/10/solid-object-oriented-design.html
 #  permalink: /:categories/:title.html
 thumbnail: Solid.jpg
-refrence: https://peyvasteh.net/5-اصل-پایه-ای-طراحی-شی-گرا-solid-به-زبان-ساده/ <br> http://alihossein.ir/tutorials/اصول-طراحی-شی-گرا-solid-چیست  <br> https://code.tutsplus.com/tutorials/solid-part-1-the-single-responsibility-principle--net-36074
+refrence: http://peyvasteh.net/5-اصل-پایه-ای-طراحی-شی-گرا-solid-به-زبان-ساده/ <br> http://alihossein.ir/tutorials/اصول-طراحی-شی-گرا-solid-چیست  <br> https://code.tutsplus.com/tutorials/solid-part-1-the-single-responsibility-principle--net-36074
 ---
 <p>
 SOLID مخفف پنج اصل زیر بنایی طراحی شی گرا (Object-Oriented Design) است که اوایل سال ۲۰۰۰ میلادی توسط Robert C. Martin یا همان Uncle Bob معرفی شد.
@@ -61,27 +61,27 @@ SOLID مخفف پنج اصل زیر بنایی طراحی شی گرا (Object-Or
 <p>Solid پنج اصل پایه ای است که به ما کمک می کند معماری نرم افزار خوبی داشته باشیم. Solid مخفف:</p>
 <ul>
 <li>
-<a href="#SRP">S مخفف SRP) Single responsibility principle)</a>
+<a href="/documentation/solid-object-oriented-design/single-responsibility-principle" target="_blank" >S مخفف SRP) Single responsibility principle)</a>
 <p>
 یک کلاس باید یک و تنها یک دلیل برای تغییر داشته باشد، به این معنی که یک کلاس فقط باید یک مسئولیت داشته باشد
 </p>
 </li>
-<li><a href="#OCP">O مخفف OCP) Open closed principle)</a>
+<li><a href="/documentation/solid-object-oriented-design/open-closed-principle" target="_blank">O مخفف OCP) Open closed principle)</a>
 <p>
 شما باید بتوانید رفتار یک کلاس را توسعه دهید بدون اینکه آنرا تغییر دهید. (کد آنرا دستکاری کنید)
 </p>
 </li>
-<li><a href="#LSP">L مخفف LSP) Liskov substitution principle)</a>
+<li><a href="/documentation/solid-object-oriented-design/liskov-substitution-principle" target="_blank">L مخفف LSP) Liskov substitution principle)</a>
 <p>
 کلاسهای به ارث رفته (مشتق شده) باید بتوانند جایگزین کلاسهای اصلی شوند.
 </p>
 </li>
-<li><a href="#ISP">I مخفف ISP) Interface segregation principle)</a>
+<li><a href="/documentation/solid-object-oriented-design/interface-segregation-principle" target="_blank">I مخفف ISP) Interface segregation principle)</a>
 <p>
 تعداد بیشتری اینترفیس کوچک و خاص، بهتر از یک اینترفیس بزرگ (چاق) با متدهای بیشتر است.
 </p>
 </li>
-<li><a href="#DIP">D مخفف DIP) Dependency inversion principle)</a>
+<li><a href="/documentation/solid-object-oriented-design/dependency-inversion-principle" target="_blank">D مخفف DIP) Dependency inversion principle)</a>
 <p>
 وابستگی به Abstraction و نه Concrete Implementation
 </p>

@@ -1,6 +1,6 @@
 ---
 layout: documentation
-title:   Openv Closed Principle
+title:   Open Closed Principle
 cattitle:   اصول S.O.L.I.D  در طراحی شی گرا (OOD)
 date:   2017-11-10 12:59:42 +0330
 jdate: جمعه 19 آبان 1396
@@ -9,7 +9,7 @@ caturl: 2017/11/10/solid-object-oriented-design.html
 thumbnail: Solid.jpg
 refrence: https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design <br> http://alihossein.ir/tutorials/آموزش-open-close-principle-solid <br> http://edu7.ir/blog/Tutorials/اصول-پنج-گانه-SOLID-در-برنامه-نویسی
 ---
-<h3>مفهوم Openv Closed Principle</h3>
+<h3>مفهوم Open Closed Principle</h3>
 <p>
 OCP  به طور خلاصه این مفهوم را می رساند :
 </p>

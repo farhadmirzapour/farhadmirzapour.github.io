@@ -1,13 +1,13 @@
 ---
 layout: documentation
-title:   Liskov substitution principle
+title:   Liskov Substitution Principle
 cattitle:   اصول S.O.L.I.D  در طراحی شی گرا (OOD)
 date:   2017-11-12 21:34:42 +0330
 jdate: یکشنبه 21 آبان 1396
 caturl: 2017/11/10/solid-object-oriented-design.html
 # permalink: /:categories/:title.html
 thumbnail: Solid.jpg
-refrence: https://en.wikipedia.org/wiki/Liskov_substitution_principle <br> https://pikneek.com/programming/مفهوم-solid-در-برنامه-نویسی-lsp/ <br> http://roocket.ir/articles/solid-principles-in-object-oriented-programming-part-iii-liskov-substitution-principal
+refrence: https://en.wikipedia.org/wiki/Liskov_substitution_principle <br> http://pikneek.com/programming/مفهوم-solid-در-برنامه-نویسی-lsp/ <br> http://roocket.ir/articles/solid-principles-in-object-oriented-programming-part-iii-liskov-substitution-principal
 ---
 <h3>مفهوم Liskov Substitution Principle</h3>
 <p>
