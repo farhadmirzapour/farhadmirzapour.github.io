@@ -8,8 +8,8 @@
   > .doc-menu {
     display: none;
     height: calc(100vh - (#{$header-height} + #{$header-border-width}));
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
     overflow-y: auto;
     box-sizing: border-box;
     //border: solid 1px $gray-color;
