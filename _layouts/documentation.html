@@ -8,6 +8,9 @@ typepage: document
 <div class="doc-container">
 
     <div class="doc-menu">
+        {% if page.menu == true %}
+        {% include  {{ page.directory }}/menu.html %}
+        {% else %}
         <ul>
             <li>
                 <a  href="{{ page.caturl | relative_url }}" class="active doc-link" role="link">
@@ -24,6 +27,7 @@ typepage: document
             {% endif %}
         {% endfor %}
         </ul>
+        {% endif %}
     </div>
 
     <article class="documentation">

@@ -24,6 +24,7 @@ github_username:  farhadmirzapour
 
 # Build settings
 markdown: kramdown
+
 highlighter: rouge
 theme: minima
 logo: /assets/img/logo/farhadmirzapour-logo.png
