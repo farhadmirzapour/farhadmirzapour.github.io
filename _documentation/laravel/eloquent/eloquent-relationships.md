@@ -9,7 +9,7 @@ caturl: 2017/12/18/laravel.html
 directory : laravel
 menu : false
 thumbnail: laravel.png
-refrence: https://laravel.com/docs/5.5/collections <br> www.tahlildadeh.com/ArticleDetails/آموزش-ابزار-Eloquent-در-لاوارل
+refrence: https://laravel.com/docs/5.5/eloquent-relationships <br> www.tahlildadeh.com/ArticleDetails/آموزش-رابطه-ها-در-Eloquent
 ---
 
 <p>
@@ -78,7 +78,7 @@ Eloquent اسم کلید خارجی (foreign key) رابطه را بر اساس 
 </code></pre>
 
 <p>
-علاوه بر آن Eloquent انتظار دارد کلید خارجی مقداری منطبق با مقدار ستون id (یا متغیر سفارشی $primaryKey) جدول پدر داشته باشد. به عبارت بهتر، Eloquent به دنبال مقدار ستون id کاربر در ستون user_id رکورد Phone می گردد . اگر می خواهید رابطه از مقداری غیر از id به عنوان کلید خارجی استفاده کند، بایستی یک آرگومان سوم به متد hasOne ارسال کرده و از طریق آن کلید سفارشی خود را مشخص کنید:
+علاوه بر آن Eloquent انتظار دارد کلید خارجی مقداری منطبق با مقدار ستون id (یا متغیر سفارشی primaryKey$) جدول پدر داشته باشد. به عبارت بهتر، Eloquent به دنبال مقدار ستون id کاربر در ستون user_id رکورد Phone می گردد . اگر می خواهید رابطه از مقداری غیر از id به عنوان کلید خارجی استفاده کند، بایستی یک آرگومان سوم به متد hasOne ارسال کرده و از طریق آن کلید سفارشی خود را مشخص کنید:
 </p>
 
 <pre><code class="language-php  line-numbers">return $this->hasOne('App\Phone', 'foreign_key', 'local_key');
@@ -110,7 +110,7 @@ class Phone extends Model
 </code></pre>
 
 <p>
-در نمونه ی بالا، Eloquent ستون user_id از مدل Phone را به id در مدل User متصل (match می کند). Eloquent اسم پیش فرض کلید خارجی را با در نظر گرفتن اسم متد (رابطه) و الصاق پسوند _id تعریف می کند. حال اگر می خواهید کلید خارجی در مدل Phone اسمی غیر ازuser_id داشته باشد، می توانید اسم دلخواه کلید خارجی را به عنوان آرگومان دوم ارسال کنید:
+در نمونه ی بالا، Eloquent ستون user_id از مدل Phone را به id در مدل User متصل (match می کند). Eloquent اسم پیش فرض کلید خارجی را با در نظر گرفتن اسم متد (رابطه) و الصاق پسوند id_ تعریف می کند. حال اگر می خواهید کلید خارجی در مدل Phone اسمی غیر ازuser_id داشته باشد، می توانید اسم دلخواه کلید خارجی را به عنوان آرگومان دوم ارسال کنید:
 </p>
 
 <pre><code class="language-php  line-numbers">/**
@@ -120,6 +120,13 @@ public function user()
 {
     return $this->belongsTo('App\User', 'foreign_key');
 }
+</code></pre>
+
+<p>
+بنابراین :
+</p>
+
+<pre><code class="language-php  line-numbers"> $user = Phone::where('phone', '0911*******')->first()->user;
 </code></pre>
 
 <p>
@@ -208,7 +215,7 @@ class Post extends Model
 </code></pre>
 
 <p>
-یادآور می شویم که Eloquent خود ستون کلید خارجی را در مدل Comment تعیین می کند. بر اساس قراردادهای از پیش تعیین شده،Eloquent فرم snake case اسم مدل مالک (post) را انتخاب کرده و صرفا یک پسوند _id به آن اضافه می کند. در این مثال Eloquent فرض را بر این می گذارد که کلید خارجی در مدل Comment ستونی به نام post_id هست.
+یادآور می شویم که Eloquent خود ستون کلید خارجی را در مدل Comment تعیین می کند. بر اساس قراردادهای از پیش تعیین شده،Eloquent فرم snake case اسم مدل مالک (post) را انتخاب کرده و صرفا یک پسوند id_ به آن اضافه می کند. در این مثال Eloquent فرض را بر این می گذارد که کلید خارجی در مدل Comment ستونی به نام post_id هست.
 </p>
 <p>
 پس از تعریف رابطه ی مورد نیاز، می توان با دسترسی به پراپرتی comments به مجموعه دیدگاه های پست مربوطه دسترسی داشت. همان طور که پیش تر گفته شد، Eloquent از ویژگی dynamic properties پشتیبانی می کند. بنابراین می توان به رابطه ها (relationship function) همانند property های تعریف شده در مدل دسترسی داشت:
@@ -242,7 +249,7 @@ return $this->hasMany('App\Comment', 'foreign_key', 'local_key');
 </p>
 
 <br>
-<h3>تعریف طرف دیگر رابطه  One To Many (Inverse)</h3>
+<h3>تعریف طرف دیگر رابطه  One To Many Inverse</h3>
 <p>
 پس از تعریف رابطه ی لازم برای دسترسی به تمامی دیدگاه های پست، رابطه ای تعریف می کنیم که اجازه ی دسترسی دیدگاه به پست مربوطه (پست پدر) را فراهم می کند. برای تعریف طرف دیگر رابطه ی hasMany، یک تابع relationship در مدل فرزند اعلان می کنیم که متد belongsTo را صدا می زند:
 </p>
@@ -275,7 +282,7 @@ echo $comment->post->title;
 </code></pre>
 
 <p>
-در مثال بالا، Eloquent ستون post_id از مدل Comment را به ستون id در مدل Post مچ می کند. همان طور که قبلا هم به آن اشاره شد،Eloquent اسم کلید خارجی را با درنظر گرفتن اسم رابطه و افزودن پسوند _id به اسم متد تعیین می کند. حال اگر اسم ستون کلید خارجی در مدلComment، post_id نباشد در آن صورت یک اسم سفارشی به عنوان آرگومان دوم به متد belongsTo پاس می دهیم:
+در مثال بالا، Eloquent ستون post_id از مدل Comment را به ستون id در مدل Post مچ می کند. همان طور که قبلا هم به آن اشاره شد،Eloquent اسم کلید خارجی را با درنظر گرفتن اسم رابطه و افزودن پسوند id_ به اسم متد تعیین می کند. حال اگر اسم ستون کلید خارجی در مدلComment، post_id نباشد در آن صورت یک اسم سفارشی به عنوان آرگومان دوم به متد belongsTo پاس می دهیم:
 </p>
 
 <pre><code class="language-php  line-numbers">/**
@@ -398,7 +405,7 @@ class Role extends Model
 </p>
 
 <br>
-<h3>)بازیابی ستون های جدول واسط( Retrieving Intermediate Table Columns</h3>
+<h3>بازیابی ستون های جدول واسط Retrieving Intermediate Table Columns</h3>
 <p>
 همان طور که پیش تر گفته شد، کار با رابطه های چند به چند لازمه ی وجود جدول واسط است. Eloquent روش های آسان و بهینه ای برای کار با این جدول فراهم می کند. برای مثال، فرض بگیرید شی User تعداد زیادی شی Role مرتبط دارد. پس از دسترسی به این رابطه، می توان با بهره گیری از اتریبیوت pivot در مدل ها به راحتی به جدول واسط دسترسی داشت:
 </p>
@@ -586,10 +593,9 @@ Typical Eloquent foreign key conventions will be used when performing the relati
 <br>
 <h3>رابطه های polymorphic</h3>
 
-<br>
 <h3>ساختار جداول مورد نیاز رابطه ی پلی مرفیک</h3>
 <p>
-رابطه های Polymorphic به یک مدل اجازه می دهند در یک رابطه همزمان به چندین مدل دیگر تعلق داشته باشد (امکان رابطه ی یک مدل با چندین مدل دیگر از طریق یک رابطه را فراهم می آورد). به عنوان مثال، فرض کنید کاربران اپلیکیشن شما می خواهند هم پست ها و هم دیدگاه ها را بپسندد (like کنند). با بهره گیری از رابطه های polymorphic می توان به راحتی یک جدول واحد likes برای هر دو این سناریو بکار برد. در گام نخست ساختار جداولی که برای این رابطه لازم است را مورد بررسی قرار می دهیم:
+رابطه های Polymorphic به یک مدل اجازه می دهند در یک رابطه همزمان به چندین مدل دیگر تعلق داشته باشد (امکان رابطه ی یک مدل با چندین مدل دیگر از طریق یک رابطه را فراهم می آورد). به عنوان مثال، فرض کنید کاربران اپلیکیشن شما می خواهند برای پست ها و هم برای ویدئو ها، کامنت بگذارند. با بهره گیری از رابطه های polymorphic می توان به راحتی یک جدول واحد comments برای هر دو این سناریو بکار برد. در گام نخست ساختار جداولی که برای این رابطه لازم است را مورد بررسی قرار می دهیم:
 </p>
 
 <pre><code class="language-php  line-numbers">posts
@@ -610,7 +616,7 @@ comments
 </code></pre>
 
 <p>
-دو ستون مورد توجه در این مثال، ستون های likeable_id و likeable_type در جدول likes هستند. ستون likeable_id حاوی مقدار ID پست یا دیدگاه خواهد بود، در حالی که ستون likeable_type اسم کلاس مدل مالک (پدر) را نگه خواهد داشت. Eloquent در واقع به واسطه ی ستونlikeable_type تشخیص می دهد در زمان دسترسی به رابطه ی likeable کدام مدل را بایستی برگرداند.
+دو ستون مورد توجه در این مثال، ستون های commentable_id و commentable_type در جدول comments هستند. ستون commentable_id حاوی مقدار ID پست یا ویدئو خواهد بود، در حالی که ستون commentable_type اسم کلاس مدل مالک (پدر) را نگه خواهد داشت. Eloquent در واقع به واسطه ی ستون commentable_type تشخیص می دهد در زمان دسترسی به رابطه ی commentable کدام مدل را بایستی برگرداند.
 </p>
 
 <br>
@@ -661,9 +667,9 @@ class Video extends Model
 
 
 <br>
-<h3>Retrieving Polymorphic Relations</h3>
+<h3>بازیابی رابطه های polymorphic (Retrieving Polymorphic Relations)</h3>
 <p>
-Once your database table and models are defined, you may access the relationships via your models. For example, to access all of the comments for a post, we can simply use the <code class=" language-php">comments</code> dynamic property:
+پس از تعریف جداول و مدل های مورد نیاز، می توانید از طریق مدل ها به رابطه ها دسترسی داشته باشید.برای مثال، جهت دسترسی به کامنت های های یک پست، می توان از property داینامیک comments استفاده کرد:
 </p>
 
 <pre><code class="language-php  line-numbers">$post = App\Post::find(1);
@@ -674,7 +680,7 @@ foreach ($post->comments as $comment) {
 </code></pre>
 
 <p>
-You may also retrieve the owner of a polymorphic relation from the polymorphic model by accessing the name of the method that performs the call to <code class=" language-php">morphTo</code>. In our case, that is the <code class=" language-php">commentable</code> method on the <code class=" language-php">Comment</code> model. So, we will access that method as a dynamic property:
+می توان مالک یک رابطه ی polymorphic را از مدل polymorphic بازیابی کرد. برای این منظور بایستی به اسم متدی که متد morphTo را صدا می زند، دسترسی داشته داشت. در مثال ما، این همان متد commentable در مدل Like هست. حال کافی است به آن متد همانند یک dynamic property دسترسی داشته باشید:
 </p>
 
 <pre><code class="language-php  line-numbers">$comment = App\Comment::find(1);
@@ -683,13 +689,17 @@ $commentable = $comment->commentable;
 </code></pre>
 
 <p>
-The <code class=" language-php">commentable</code> relation on the <code class=" language-php">Comment</code> model will return either a <code class=" language-php">Post</code> or <code class=" language-php">Video</code> instance, depending on which type of model owns the comment.
+فراخوانی (متد) رابطه ی commentable  در مدل Comment ، بسته به مدلی که مالک آن comment می باشد یک نمونه از Post یا Video  را در خروجی برمی گرداند.
 </p>
 
 <br>
-<h3>Custom Polymorphic Types</h3>
+<h3>نوع های اختصاصی polymorphic</h3>
 <p>
-By default, Laravel will use the fully qualified class name to store the type of the related model. For instance, given the example above where a <code class=" language-php">Comment</code> may belong to a <code class=" language-php">Post</code> or a <code class=" language-php">Video</code>, the default <code class=" language-php">commentable_type</code> would be either <code class=" language-php">App\<span class="token package">Post</span></code> or <code class=" language-php">App\<span class="token package">Video</span></code>, respectively. However, you may wish to decouple your database from your application's internal structure. In that case, you may define a relationship "morph map" to instruct Eloquent to use a custom name for each model instead of the class name:
+به صورت پیش فرض، Laravel اسم کامل کلاس را برای ذخیره ی نوع (اسم) مدل مربوطه بکار می برد. به عنوان نمونه، در ادامه ی مثال فوق که یک comment ممکن بود به یک Post یا Video تعلق داشته باشد، commentable_type پیش فرضApp\Post یا App\Video خواهد بود.
+</p>
+
+<p>
+شما می توانید این قرار داد را شکسته و پایگاه داده را از ساختار داخلی اپلیکیشن جدا نمایید. این کار را با تعریف یک relationship "morph map" انجام می دهیم. morph map به Eloquent اعلان می کند که بجای اسم کلاس، اسم جدول متناظر با آن مدل را بکار ببرد.
 </p>
 
 <pre><code class="language-php  line-numbers">use Illuminate\Database\Eloquent\Relations\Relation;
@@ -701,19 +711,18 @@ Relation::morphMap([
 </code></pre>
 
 <p>
-You may register the <code class=" language-php">morphMap</code> in the <code class=" language-php">boot</code> function of your <code class=" language-php">AppServiceProvider</code> or create a separate service provider if you wish.
+می توانید morphMap را در تابع boot از AppServiceProvider معرفی کنید یا در صورت تمایل یک service provider مجزا تعریف کنید.
 </p>
 <p>
 <a name="many-to-many-polymorphic-relations"></a>
 </p>
 
 <br>
-<h3>Many To Many Polymorphic Relations</h3>
+<h3>رابطه های polymorphic چند به چند (Many To Many Polymorphic Relations)</h3>
 
-<br>
 <h3>Table Structure</h3>
 <p>
-In addition to traditional polymorphic relations, you may also define "many-to-many" polymorphic relations. For example, a blog <code class=" language-php">Post</code> and <code class=" language-php">Video</code> model could share a polymorphic relation to a <code class=" language-php">Tag</code> model. Using a many-to-many polymorphic relation allows you to have a single list of unique tags that are shared across blog posts and videos. First, let's examine the table structure:
+علاوه بر رابطه های polymorphic متعارف، می توانید رابطه های polymorphic چند به چند تعریف کنید. برای مثال، یک مدل Post و Video در یک وبلاگ می توانند یک رابطه ی polymorphic با مدل Tag داشته باشند. استفاده از رابطه ی polymorphic چند به چند این امکان را برای شما فراهم می کند تا یک لیست واحد از تگ های منحصر بفرد داشته باشید که تمامی پست ها و ویدئوهای وبلاگ از آن ها استفاده می کنند. در گام نسخت ساختار جدول را مورد بررسی قرار دهیم:
 </p>
 
 <pre><code class="language-php  line-numbers">posts
@@ -738,7 +747,7 @@ taggables
 <br>
 <h3>Model Structure</h3>
 <p>
-Next, we're ready to define the relationships on the model. The <code class=" language-php">Post</code> and <code class=" language-php">Video</code> models will both have a <code class=" language-php">tags</code> method that calls the <code class=" language-php">morphToMany</code> method on the base Eloquent class:
+اکنون زمان آن فرا رسیده تا رابطه ها را در مدل تعریف کنیم. مدل های Post و Video هر دو متد tags را خواهند داشت. متد tags متدmorphToMany را در کلاس پایه ی Eloquent فراخوانی می کند
 </p>
 
 <pre><code class="language-php  line-numbers"><?php
@@ -761,9 +770,9 @@ class Post extends Model
 
 
 <br>
-<h3>Defining The Inverse Of The Relationship</h3>
+<h3>تعریف طرف دیگر رابطه Defining The Inverse Of The Relationship</h3>
 <p>
-Next, on the <code class=" language-php">Tag</code> model, you should define a method for each of its related models. So, for this example, we will define a <code class=" language-php">posts</code> method and a <code class=" language-php">videos</code> method:
+سپس در مدل Tag می بایست یک متد برای هر یک از مدل های مربوطه تعریف نمایید. در این مثال، یک متد Posts و یک videos تعریف می کنیم:
 </p>
 
 <pre><code class="language-php  line-numbers"><?php
@@ -794,9 +803,9 @@ class Tag extends Model
 
 
 <br>
-<h3>Retrieving The Relationship</h3>
+<h3>بازیابی رابطه (Retrieving The Relationship)</h3>
 <p>
-Once your database table and models are defined, you may access the relationships via your models. For example, to access all of the tags for a post, you can simply use the <code class=" language-php">tags</code> dynamic property:
+پس از تعریف جداول و مدل های مربوطه، می توان از طریق رابطه ها به مدل ها دسترسی داشت. برای مثال، جهت دسترسی به تمامی تگ های یک پست، کافی است property داینامیک tags را بکار ببرید:
 </p>
 
 <pre><code class="language-php  line-numbers">$post = App\Post::find(1);
@@ -807,7 +816,7 @@ foreach ($post->tags as $tag) {
 </code></pre>
 
 <p>
-You may also retrieve the owner of a polymorphic relation from the polymorphic model by accessing the name of the method that performs the call to <code class=" language-php">morphedByMany</code>. In our case, that is the <code class=" language-php">posts</code> or <code class=" language-php">videos</code> methods on the <code class=" language-php">Tag</code> model. So, you will access those methods as dynamic properties:
+می توانید مالک یک رابطه ی polymorphic را از مدل polymorphic بازیابی کنید. کافی است به اسم متدی که تابع morphedByMany را صدا می زند، دسترسی داشته باشید. در این مثال منظور دو متد posts یا videos در مدل Tag هست. بنابراین می بایست به متدهای نام برده همانندproperty های داینامیک دسترسی پیدا کنید:
 </p>
 
 <pre><code class="language-php  line-numbers">$tag = App\Tag::find(1);
@@ -822,12 +831,12 @@ foreach ($tag->videos as $video) {
 </p>
 
 <br>
-<h3><a href="#querying-relations">Querying Relations</a></h3>
+<h3><a href="#querying-relations">پرس و جو و گرفتن کوئری از رابطه ها (Querying Relations)</a></h3>
 <p>
-Since all types of Eloquent relationships are defined via methods, you may call those methods to obtain an instance of the relationship without actually executing the relationship queries. In addition, all types of Eloquent relationships also serve as <a href="/docs/5.5/queries">query builders</a>, allowing you to continue to chain constraints onto the relationship query before finally executing the SQL against your database.
+همان طور که می دانید رابطه های Eloquent به صورت توابعی تعریف می شوند. شما می توانید با فراخوانی این توابع بدون اینکه لازم باشد خود کوئری relationship را واقعا اجرا کنید، نمونه ای از آن رابطه را دریافت نمایید. بعلاوه همان طور که قبلا نیز گفته شد، تمامی رابطه های Eloquentخود مانند query builder عمل می کنند و به شما اجازه می دهند شرط ها و قیودی را برای محدود نمودن نتیجه به صورت زنجیره ای به کوئریrelationship (پیش از اجرای نهایی کوئری بر روی پایگاه داده) اعمال کنید:
 </p>
 <p>
-For example, imagine a blog system in which a <code class=" language-php">User</code> model has many associated <code class=" language-php">Post</code> models:
+به عنوان مثال، یک سیستم وبلاگ را در نظر بگیرید که در آن مدل User تعداد زیادی مدل Post مرتبط دارد:
 </p>
 
 <pre><code class="language-php  line-numbers"><?php
@@ -849,7 +858,7 @@ class User extends Model
 </code></pre>
 
 <p>
-You may query the <code class=" language-php">posts</code> relationship and add additional constraints to the relationship like so:
+می توانید از رابطه ی posts کوئری گرفته و محدودیت های بیشتری را مانند زیر به رابطه اعمال کنید:
 </p>
 
 <pre><code class="language-php  line-numbers">$user = App\User::find(1);
@@ -858,16 +867,16 @@ $user->posts()->where('active', 1)->get();
 </code></pre>
 
 <p>
-You are able to use any of the <a href="/docs/5.5/queries">query builder</a> methods on the relationship, so be sure to explore the query builder documentation to learn about all of the methods that are available to you.
+می توانید تمامی متدهای query builder را بر روی رابطه بکار ببرید.
 </p>
 <p>
 <a name="relationship-methods-vs-dynamic-properties"></a>
 </p>
 
 <br>
-<h3>Relationship Methods Vs. Dynamic Properties</h3>
+<h3>متدهای relationship در برابر property های Dynamic</h3>
 <p>
-If you do not need to add additional constraints to an Eloquent relationship query, you may simply access the relationship as if it were a property. For example, continuing to use our <code class=" language-php">User</code> and <code class=" language-php">Post</code> example models, we may access all of a user's posts like so:
+اگر نیازی به اعمال قیود (constraint) اضافی بر سازمان بر روی کوئری relationship نیست، می توانید به راحتی به آن رابطه مانند یک propertyدسترسی داشته باشید. در ادامه ی مثال قبلی (مدل های User و Post)، می توان به تمامی پست های کاربر مانند زیر دسترسی داشت:
 </p>
 
 <pre><code class="language-php  line-numbers">$user = App\User::find(1);
@@ -878,16 +887,16 @@ foreach ($user->posts as $post) {
 </code></pre>
 
 <p>
-Dynamic properties are "lazy loading", meaning they will only load their relationship data when you actually access them. Because of this, developers often use <a href="#eager-loading">eager loading</a> to pre-load relationships they know will be accessed after loading the model. Eager loading provides a significant reduction in SQL queries that must be executed to load a model's relations.
+property های dynamic بار گذاری را با تاخیر انجام می دهند (lazy loading). بدین معنی که داده های relationship خود را تنها زمانی بارگذاری می کنند که شما به آن ها دسترسی پیدا می کنید. به همین خاطر توسعه دهندگان اغلب از eager loading استفاده کرده و بدین وسیله رابطه هایی که می دانند پس از بارگذاری مدل مورد دسترسی قرار می گیرند را از قبل لود می کنند. eager loading تعداد کوئری های SQL که باید برای بارگذاری رابطه های یک مدل اجرا شوند را به طور قابل توجهی کاهش می دهد.
 </p>
 <p>
 <a name="querying-relationship-existence"></a>
 </p>
 
 <br>
-<h3>Querying Relationship Existence</h3>
+<h3>محدود کردن نتایج یک کوئری بر اساس وجود یا عدم وجود یک رابطه Querying Relationship Existence</h3>
 <p>
-When accessing the records for a model, you may wish to limit your results based on the existence of a relationship. For example, imagine you want to retrieve all blog posts that have at least one comment. To do so, you may pass the name of the relationship to the <code class=" language-php">has</code> and <code class=" language-php">orHas</code> methods:
+در زمان دسترسی به رکورد های یک مدل، می توانید نتایج را بر اساس وجود یک رابطه محدود نمایید. برای مثال، فرض کنید می خواهید تمامی پست های وبلاگ که دارای حداقل یک دیدگاه یا comment مرتبط هستند را واکشی نمایید. برای این منظور، اسم رابطه را به عنوان آرگومان به متد hasپاس دهید:
 </p>
 
 <pre><code class="language-php  line-numbers">// Retrieve all posts that have at least one comment...
@@ -895,7 +904,7 @@ $posts = App\Post::has('comments')->get();
 </code></pre>
 
 <p>
-You may also specify an operator and count to further customize the query:
+می توانید یک عملگر به همراه تعداد دیدگاه ها (تعداد comment هایی که پست ها باید داشته باشد تا در خروجی لحاظ شوند) برای تنظیم بیشتر کوئری مطابق نیاز تعریف کنید:
 </p>
 
 <pre><code class="language-php  line-numbers">// Retrieve all posts that have three or more comments...
@@ -903,7 +912,7 @@ $posts = Post::has('comments', '>=', 3)->get();
 </code></pre>
 
 <p>
-Nested <code class=" language-php">has</code> statements may also be constructed using "dot" notation. For example, you may retrieve all posts that have at least one comment and vote:
+با استفاده از عملگر نقطه می توانید دستورات has تودرتو بسازید. در نمونه ی زیر تمامی پست هایی که حداقل یک comment و vote دارند را واکشی می کنیم:
 </p>
 
 <pre><code class="language-php  line-numbers">// Retrieve all posts that have at least one comment with votes...
@@ -911,7 +920,7 @@ $posts = Post::has('comments.votes')->get();
 </code></pre>
 
 <p>
-If you need even more power, you may use the <code class=" language-php">whereHas</code> and <code class=" language-php">orWhereHas</code> methods to put "where" conditions on your <code class=" language-php">has</code> queries. These methods allow you to add customized constraints to a relationship constraint, such as checking the content of a comment:
+اگر می خواهید نتایج دقیق تری را در خروجی داشته باشید، می توانید متدهای whereHas و orWhereHas را برای اعمال شرط های where بر روی کوئری های has فراخوانی کنید. این متدها به شما امکان می دهند قیود اختصاصی (constraint) خود را به constraint های رابطه اعمال کنید، مانند بررسی محتویات یک دیدگاه (comment). در زیر تمامی پست هایی که حداقل یک دیدگاه مرتبط دارند و علاوه بر آن دربردارنده ی کلماتی همچون foo می باشد را استخراج می کنیم:
 </p>
 
 <pre><code class="language-php  line-numbers">// Retrieve all posts with at least one comment containing words like foo%
@@ -992,9 +1001,9 @@ echo $posts[0]->pending_comments_count;
 </p>
 
 <br>
-<h3><a href="#eager-loading">Eager Loading</a></h3>
+<h3><a href="#eager-loading">Eager loading (بارگذاری زود هنگام)</a></h3>
 <p>
-When accessing Eloquent relationships as properties, the relationship data is "lazy loaded". This means the relationship data is not actually loaded until you first access the property. However, Eloquent can "eager load" relationships at the time you query the parent model. Eager loading alleviates the N + 1 query problem. To illustrate the N + 1 query problem, consider a <code class=" language-php">Book</code> model that is related to <code class=" language-php">Author</code>:
+زمانی که به (توابع) رابطه های Eloquent مانند property دسترسی پیدا می کنید، داده های رابطه در واقع با تاخیر بارگذاری می شوند (به اصطلاحlazy load می شوند). بدین معنی که داده های رابطه تنها زمانی به معنای واقعی لود می شوند که شما (برای اولین بار) به property دسترسی پیدا کنید. Eloquent می تواند رابطه ها را در زمانی که از مدل پدر کوئری می گیرید، به صورت زود هنگام بارگذاری (eager load) کند. Eager loading در حقیقت برای برطرف ساختن مشکل کوئری N + 1 در نظر گرفته شد. برای فهم بهتر این مشکل یک مدل Book را در نظر بگیرید که با مدل Author مرتبط است:
 </p>
 
 <pre><code class="language-php  line-numbers"><?php
@@ -1016,7 +1025,7 @@ class Book extends Model
 </code></pre>
 
 <p>
-Now, let's retrieve all books and their authors:
+حال تمامی کتاب ها و نویسندنگان مرتبط آن ها بازیابی می کنیم:
 </p>
 
 <pre><code class="language-php  line-numbers">$books = App\Book::all();
@@ -1027,10 +1036,10 @@ foreach ($books as $book) {
 </code></pre>
 
 <p>
-This loop will execute 1 query to retrieve all of the books on the table, then another query for each book to retrieve the author. So, if we have 25 books, this loop would run 26 queries: 1 for the original book, and 25 additional queries to retrieve the author of each book.
+این حلقه یک کوئری برای واکشی تمامی کتاب های داخل جدول اجرا کرده سپس یک کوئری دیگر به ازای هر کتاب تا نویسنده ی مربوطه ی آن نیز واکشی شود. بنابراین اگر 25 کتاب داشته باشیم، حلقه ی مزبور در کل 26 کوئری اجرا می کند: 1 کوئری برای کتاب اصلی و 25 کوئری جهت استخراج نویسندگان مربوط به هر کتاب.
 </p>
 <p>
-Thankfully, we can use eager loading to reduce this operation to just 2 queries. When querying, you may specify which relationships should be eager loaded using the <code class=" language-php">with</code> method:
+با بهره گیری از امکان eager loading می توان این عملیات و تعداد کوئری را به تنها دو کوئری کاهش داد. به هنگام کوئری گرفتن، می توان مشخص کرد کدام رابطه ها بایستی زود هنگام بارگذاری شوند. این کار با فراخوانی متد with امکان پذیر خواهد بود:
 </p>
 
 <pre><code class="language-php  line-numbers">$books = App\Book::with('author')->get();
@@ -1041,7 +1050,7 @@ foreach ($books as $book) {
 </code></pre>
 
 <p>
-For this operation, only two queries will be executed:
+برای این عملیات دو کوئری بیشتر اجرا نمی شود:
 </p>
 
 <pre><code class="language-php  line-numbers">select * from books
@@ -1051,9 +1060,9 @@ select * from authors where id in (1, 2, 3, 4, 5, ...)
 
 
 <br>
-<h3>Eager Loading Multiple Relationships</h3>
+<h3>بارگذاری زود هنگام چندین رابطه Eager Loading Multiple Relationships</h3>
 <p>
-Sometimes you may need to eager load several different relationships in a single operation. To do so, just pass additional arguments to the <code class=" language-php">with</code> method:
+گاهی لازم می شود چندین رابطه ی مختلف را در طی تنها یک عملیات به صورت زود هنگام بارگذاری کنید. برای نیل به این هدف کافی است رابطه ها را به عنوان آرگومان به متد with ارسال نمایید:
 </p>
 
 <pre><code class="language-php  line-numbers">$books = App\Book::with(['author', 'publisher'])->get();
@@ -1061,9 +1070,9 @@ Sometimes you may need to eager load several different relationships in a single
 
 
 <br>
-<h3>Nested Eager Loading</h3>
+<h3>بارگذاری زود هنگام رابطه های تودرتو Nested Eager Loading</h3>
 <p>
-To eager load nested relationships, you may use "dot" syntax. For example, let's eager load all of the book's authors and all of the author's personal contacts in one Eloquent statement:
+برای بارگذاری زود هنگام رابطه های تودرتو کافی است عملگر نقطه را بکار ببرید. در نمونه ی زیر تمامی نویسندگان کتاب و نیز کلیه ی تماس های شخصی نویسنده را در قالب یک دستور Eloquent به صورت زودهنگام بارگذاری می کنیم:
 </p>
 
 <pre><code class="language-php  line-numbers">$books = App\Book::with('author.contacts')->get();
@@ -1089,9 +1098,9 @@ You may not always need every column from the relationships you are retrieving. 
 </p>
 
 <br>
-<h3>Constraining Eager Loads</h3>
+<h3>اعمال محدودیت بر روی بارگذاری زود هنگام Constraining Eager Loads</h3>
 <p>
-Sometimes you may wish to eager load a relationship, but also specify additional query constraints for the eager loading query. Here's an example:
+گاهی لازم می شود رابطه ای را به صورت زود هنگام بارگذاری کرده و این میان محدودیت هایی نیز را بر روی کوئری اعمال کنید. مثال:
 </p>
 
 <pre><code class="language-php  line-numbers">$users = App\User::with(['posts' => function ($query) {
@@ -1100,7 +1109,7 @@ Sometimes you may wish to eager load a relationship, but also specify additional
 </code></pre>
 
 <p>
-In this example, Eloquent will only eager load posts where the post's <code class=" language-php">title</code> column contains the word <code class=" language-php">first</code>. Of course, you may call other <a href="/docs/5.5/queries">query builder</a> methods to further customize the eager loading operation:
+در این مثال، Eloquent تنها پست هایی را بارگذاری می کند که عنوان (مقدار ستون title) آن ها دربردارنده ی کلمه ی first باشد. البته می توانید دیگر متدهای query builder را برای تنظیم دقیق تر عملیات eager loading بکار ببرید:
 </p>
 
 <pre><code class="language-php  line-numbers">$users = App\User::with(['posts' => function ($query) {
@@ -1160,9 +1169,9 @@ To load a relationship only when it has not already been loaded, use the <code c
 </p>
 
 <br>
-<h3>The Save Method</h3>
+<h3>متد save</h3>
 <p>
-Eloquent provides convenient methods for adding new models to relationships. For example, perhaps you need to insert a new <code class=" language-php">Comment</code> for a <code class=" language-php">Post</code> model. Instead of manually setting the <code class=" language-php">post_id</code> attribute on the <code class=" language-php">Comment</code>, you may insert the <code class=" language-php">Comment</code> directly from the relationship's <code class=" language-php">save</code> method:
+Eloquent متدهای فراوانی برای افزودن مدل های جدید به رابطه ها فراهم می کند. برای مثال، ممکن است لازم شود یک مدل جدید Commentبرای مدل Post درج کنید. بجای اینکه attribute(ستون) post-id را در مدل Comment به صورت دستی مقداردهی کنید، می توانید این مدل را به صورت مستقیم از متد save رابطه وارد نمایید:
 </p>
 
 <pre><code class="language-php  line-numbers">$comment = new App\Comment(['message' => 'A new comment.']);
@@ -1173,10 +1182,10 @@ $post->comments()->save($comment);
 </code></pre>
 
 <p>
-Notice that we did not access the <code class=" language-php">comments</code> relationship as a dynamic property. Instead, we called the <code class=" language-php">comments</code> method to obtain an instance of the relationship. The <code class=" language-php">save</code> method will automatically add the appropriate <code class=" language-php">post_id</code> value to the new <code class=" language-php">Comment</code> model.
+همان طور که در مثال بالا می بینید به رابطه ی comments به صورت یک dynamic property دسترسی پیدا نکردیم. بلکه صرفا متدcomments را برای بدست آوردن نمونه ای از رابطه فراخوانی نمودیم. متد save خود به صورت اتوماتیک مقدار post_id را به مدل جدیدComment اضافه می کند (فیلد مزبور را در مدل Comment مقداردهی می کند).
 </p>
 <p>
-If you need to save multiple related models, you may use the <code class=" language-php">saveMany</code> method:
+برای ذخیره ی چندین مدل مرتبط، کافی است متد saveMany را بکار ببرید:
 </p>
 
 <pre><code class="language-php  line-numbers">$post = App\Post::find(1);
@@ -1192,9 +1201,9 @@ $post->comments()->saveMany([
 </p>
 
 <br>
-<h3>The Create Method</h3>
+<h3>متد Create</h3>
 <p>
-In addition to the <code class=" language-php">save</code> and <code class=" language-php">saveMany</code> methods, you may also use the <code class=" language-php">create</code> method, which accepts an array of attributes, creates a model, and inserts it into the database. Again, the difference between <code class=" language-php">save</code> and <code class=" language-php">create</code> is that <code class=" language-php">save</code> accepts a full Eloquent model instance while <code class=" language-php">create</code> accepts a plain PHP <code class=" language-php"><span class="token keyword">array</span></code>:
+علاوه بر متدهای save و saveMany، می توانید متد create را فراخوانی کنید. این متد آرایه ای از attribute ها را به عنوان آرگومان دریافت کرده، یک مدل جدید ایجاد می کند و سپس آن مدل را داخل پایگاه داده درج می نماید. تفاوت بین دو متد save و create در این است که save یک نمونه ی کامل از مدل Eloquent را به عنوان آرگومان می پذیرد، در حالی که create صرفا یک آرایه ی ساده و متعارف PHP را به عنوان پارامتر ورودی دریافت می کند:
 </p>
 
 <pre><code class="language-php  line-numbers">$post = App\Post::find(1);
@@ -1230,9 +1239,9 @@ $post->comments()->createMany([
 </p>
 
 <br>
-<h3>Belongs To Relationships</h3>
+<h3>بروز رسانی رابطه های "Belongs To" (مرتبط کردن مدل ها با متد associate)</h3>
 <p>
-When updating a <code class=" language-php">belongsTo</code> relationship, you may use the <code class=" language-php">associate</code> method. This method will set the foreign key on the child model:
+به هنگام بروز رسانی رابطه ی belongsTo، می توانید متد associate را فراخوانی کنید. این متد کلید خارجی (foreign key) را در مدل فرزند مقداردهی می کند:
 </p>
 
 <pre><code class="language-php  line-numbers">$account = App\Account::find(10);
@@ -1243,7 +1252,7 @@ $user->save();
 </code></pre>
 
 <p>
-When removing a <code class=" language-php">belongsTo</code> relationship, you may use the <code class=" language-php">dissociate</code> method. This method will set the relationship's foreign key to <code class=" language-php"><span class="token keyword">null</span></code>:
+و در زمان حذف یک رابطه ی belongsTo متد dissociate را بکار ببرید. این متد علاوه بر بازگردانی کلید خارجی، رابطه ی موجود در مدل فرزند راreset می کند:
 </p>
 
 <pre><code class="language-php  line-numbers">$user->account()->dissociate();
@@ -1259,9 +1268,9 @@ $user->save();
 <h3>Many To Many Relationships</h3>
 
 <br>
-<h3>Attaching / Detaching</h3>
+<h3>درج (attach) / حذف (detach)  در رابطه های چند به چند</h3>
 <p>
-Eloquent also provides a few additional helper methods to make working with related models more convenient. For example, let's imagine a user can have many roles and a role can have many users. To attach a role to a user by inserting a record in the intermediate table that joins the models, use the <code class=" language-php">attach</code> method:
+به هنگام کار با رابطه های چند به چند، Eloquent تعداد زیادی متد کمکی (helper method) ارائه می کند که کار با مدل های مرتبط را به مراتب آسان ساخته. سناریویی را در نظر بگیرید که در آن یک کاربر می تواند نقش های متعددی داشته باشد و یک نقش نیز در مقابل به کاربران زیادی تعلق داشته باشد. برای اینکه بتوان یک نقش جدید را با درج یک رکورد در جدول واسطه (که مدل ها را به هم وصل می کند) به کاربر مورد نظر اضافه کرد، بایستی متد attach را بکار برد (می توان با درج یک رکورد در جدول واسطه که مدل ها را به هم پیوند می دهد، یک نقش جدید به کاربر مورد نظر اضافه کرد. برای این منظور کافی است متد attach را فراخوانی کنید):
 </p>
 
 <pre><code class="language-php  line-numbers">$user = App\User::find(1);
@@ -1270,14 +1279,14 @@ $user->roles()->attach($roleId);
 </code></pre>
 
 <p>
-When attaching a relationship to a model, you may also pass an array of additional data to be inserted into the intermediate table:
+به هنگام اضافه کردن یک رابطه جدید به مدل، همچنین می توانید آرایه ای از داده های جدید برای درج در جدول واسطه به متد attach ارسال کنید:
 </p>
 
 <pre><code class="language-php  line-numbers">$user->roles()->attach($roleId, ['expires' => $expires]);
 </code></pre>
 
 <p>
-Of course, sometimes it may be necessary to remove a role from a user. To remove a many-to-many relationship record, use the <code class=" language-php">detach</code> method. The <code class=" language-php">detach</code> method will remove the appropriate record out of the intermediate table; however, both models will remain in the database:
+گاهی لازم می شود یک نقش را از کاربری حذف کنیم. برای حذف یک رکورد در رابطه ی چند به چند، متد detach را بکار می بریم. این متد رکورد مربوطه را از جدول واسطه حذف می کند. دقت داشته باشید که در پی حذف رکورد، دو مدل در پایگاه داده باقی مانده و حذف نمی شوند:
 </p>
 
 <pre><code class="language-php  line-numbers">// Detach a single role from the user...
@@ -1288,7 +1297,7 @@ $user->roles()->detach();
 </code></pre>
 
 <p>
-For convenience, <code class=" language-php">attach</code> and <code class=" language-php">detach</code> also accept arrays of IDs as input:
+هر دو متدهای attach و detach آرایه ای از شناسه ها را به عنوان ورودی می گیرند:
 </p>
 
 <pre><code class="language-php  line-numbers">$user = App\User::find(1);
@@ -1329,7 +1338,7 @@ If you do not want to detach existing IDs, you may use the <code class=" languag
 <br>
 <h3>Toggling Associations</h3>
 <p>
-The many-to-many relationship also provides a <code class=" language-php">toggle</code> method which "toggles" the attachment status of the given IDs. If the given ID is currently attached, it will be detached. Likewise, if it is currently detached, it will be attached:
+همچنین می توانید از متد sync برای ساخت رابطه های چند به چند استفاده نمایید. این متد آرایه ای از شناسه ها (ID) را به عنوان آرگومان دریافت کرده و در جدول واسطه قرار می دهد. هر ID ای که در آرایه ی ورودی موجود نباشد، از جدول واسطه حذف خواهد شد. پس از اتمام این عملیات، تنهاID های حاضر در آرایه ی ورودی داخل جدول واسطه موجود خواهند بود:
 </p>
 
 <pre><code class="language-php  line-numbers">$user->roles()->toggle([1, 2, 3]);
@@ -1347,9 +1356,9 @@ When working with a many-to-many relationship, the <code class=" language-php">s
 
 
 <br>
-<h3>Updating A Record On A Pivot Table</h3>
+<h3>بروز رسانی یک رکورد در جدول Pivot</h3>
 <p>
-If you need to update an existing row in your pivot table, you may use <code class=" language-php">updateExistingPivot</code> method. This method accepts the pivot record foreign key and an array of attributes to update:
+برای بروز رسانی سطر موجود در جدول pivot، متد updateExistingPivot را بکار ببرید:
 </p>
 
 <pre><code class="language-php  line-numbers">$user = App\User::find(1);
@@ -1362,9 +1371,9 @@ $user->roles()->updateExistingPivot($roleId, $attributes);
 </p>
 
 <br>
-<h3><a href="#touching-parent-timestamps">Touching Parent Timestamps</a></h3>
+<h3><a href="#touching-parent-timestamps">بروز رسانی Timestamp مدل پدر</a></h3>
 <p>
-When a model <code class=" language-php">belongsTo</code> or <code class=" language-php">belongsToMany</code> another model, such as a <code class=" language-php">Comment</code> which belongs to a <code class=" language-php">Post</code>, it is sometimes helpful to update the parent's timestamp when the child model is updated. For example, when a <code class=" language-php">Comment</code> model is updated, you may want to automatically "touch" the <code class=" language-php">updated_at</code> timestamp of the owning <code class=" language-php">Post</code>. Eloquent makes it easy. Just add a <code class=" language-php">touches</code> property containing the names of the relationships to the child model:
+زمانی که مدلی به یک (belongsTo) یا چند (belongToMany) مدل دیگر تعلق دارد، مانند مدل Comment که به یک مدل Post تعلق دارد، بروز رسانی timestamp مدل پدر پس از بروز رسانی مدل فرزند می تواند مفید واقع شود. برای مثال زمانی که یک مدل Comment بروز رسانی می شود، ممکن است بخواهید تایم استمپ updated_at مدل مالک (Post) نیز بروز آوری شود. Eloquent این کار را برای شما آسان کرده است. کافی است پراپرتی touches که با اسم رابطه ها مقداردهی شده را به مدل فرزند اضافه نمایید:
 </p>
 
 <pre><code class="language-php  line-numbers"><?php
@@ -1393,7 +1402,7 @@ class Comment extends Model
 </code></pre>
 
 <p>
-Now, when you update a <code class=" language-php">Comment</code>, the owning <code class=" language-php">Post</code> will have its <code class=" language-php">updated_at</code> column updated as well, making it more convenient to know when to invalidate a cache of the <code class=" language-php">Post</code> model:
+حال زمانی که شما یک Comment را بروز رسانی می کنید، مقدار ستون های updated_at در مدل پدر مدل پدر (Post) نیز بروز آوری می شود:
 </p>
 
 <pre><code class="language-php  line-numbers">$comment = App\Comment::find(1);

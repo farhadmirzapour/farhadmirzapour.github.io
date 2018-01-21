@@ -159,3 +159,19 @@
     }
   }
 }
+
+#collection-method-list > p {
+  column-count: 3; -moz-column-count: 3; -webkit-column-count: 3;
+  column-gap: 2em; -moz-column-gap: 2em; -webkit-column-gap: 2em;
+  direction:ltr;
+
+}
+#collection-method-list{
+  text-align:center;
+}
+#collection-method-list a {
+  display: block;
+  direction:ltr;
+  color: #f4645f;
+  text-align:left;
+}

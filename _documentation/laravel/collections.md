@@ -69,23 +69,7 @@ $upper = $collection->toUpper();
 <br>
 <h3>متد های موجود در کلاس Collection</h3>
 <p>متدهای از پیش تعریف شده این کلاس عبارتند از :</p>
-<style>
-    #collection-method-list > p {
-        column-count: 3; -moz-column-count: 3; -webkit-column-count: 3;
-        column-gap: 2em; -moz-column-gap: 2em; -webkit-column-gap: 2em;
-        direction:ltr;
 
-    }
-#collection-method-list{
- text-align:center;
-}
-    #collection-method-list a {
-        display: block;
-        direction:ltr;
-        color: #f4645f;
-        text-align:left;
-    }
-</style>
 <div id="collection-method-list">
 <p><a href="#method-all">all</a>
 <a href="#method-average">average</a>
