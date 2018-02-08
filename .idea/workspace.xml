@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ca62077-7c47-486a-90d9-36a917269049" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_documentation/laravel/The Basics/controllers.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_documentation/laravel/The Basics/csrf.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_documentation/laravel/The Basics/middleware.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_documentation/laravel/The Basics/requests.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_documentation/laravel/The Basics/routing.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_documentation/laravel/The Basics/requests.md" afterPath="$PROJECT_DIR$/_documentation/laravel/The Basics/requests.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,8 +21,8 @@
         <entry file="file://$PROJECT_DIR$/_documentation/laravel/The Basics/requests.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="148">
-                <caret line="462" column="0" lean-forward="false" selection-start-line="462" selection-start-column="0" selection-end-line="462" selection-end-column="0" />
+              <first_editor relative-caret-position="360">
+                <caret line="716" column="3" lean-forward="false" selection-start-line="716" selection-start-column="3" selection-end-line="716" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -170,8 +166,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -295,11 +291,12 @@
       <workItem from="1517509254153" duration="3187000" />
       <workItem from="1517553517205" duration="4587000" />
       <workItem from="1517678151964" duration="1566000" />
+      <workItem from="1517851337991" duration="2976000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="331144000" />
+    <option name="totallyTimeSpent" value="334120000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -874,8 +871,8 @@
     <entry file="file://$PROJECT_DIR$/_documentation/laravel/The Basics/requests.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="148">
-            <caret line="462" column="0" lean-forward="false" selection-start-line="462" selection-start-column="0" selection-end-line="462" selection-end-column="0" />
+          <first_editor relative-caret-position="360">
+            <caret line="716" column="3" lean-forward="false" selection-start-line="716" selection-start-column="3" selection-end-line="716" selection-end-column="3" />
             <folding />
           </first_editor>
           <second_editor>
