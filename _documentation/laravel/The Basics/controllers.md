@@ -318,7 +318,7 @@ class ShowProfile extends Controller
 </p>
 
 
-<pre><code class="language-php  line-numbers">{!! method_field('PUT') !!}
+<pre><code class="language-php  line-numbers">{% raw %}{{ method_field('PUT') }}{% endraw %}
 </code></pre>
 
 

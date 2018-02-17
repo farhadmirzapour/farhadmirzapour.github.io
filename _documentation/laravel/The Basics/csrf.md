@@ -23,11 +23,12 @@ refrence: https://laravel.com/docs/5.5/csrf <br> https://www.lydaweb.com/article
 هر زمان که یک فرم HTML را در برنامه خود تعریف می‌کنید، باید فیلد پنهان CSRF را در درون فرم قرار دهید تا middleware مربوط به حفاظت CSRF بتواند درخواست کاربر را تایید کند. برای تولید فیلد نشانه می‌توان از تابع کمکی csrf_field به صورت زیر استفاده کرد:
 </p>
 
-
-<pre><code class="language-php  line-numbers">{% highlight scala %}<form method="POST" action="/profile">
-    {!! csrf_field() !!}
+```html
+<form method="POST" action="/profile">
+    {% raw %}{{ csrf_field() }}{% endraw %}
     ...
-</form>{% endhighlight %}</code></pre>
+</form>
+```
 
 <p>
 middlewareVerifyCsrfToken، که در گروه middleware web قرار دارد، به صورت خودکار نشانه‌ی موجود در درخواست ورودی برنامه را با نشانه ذخیره شده در سشن (session) کاربر مقایسه می‌کند تا مشخص کند که با هم مطابقت دارند یا خیر.
@@ -89,9 +90,9 @@ class VerifyCsrfToken extends Middleware
 middlewareVerifyCsrfToken  علاوه بر چک کردن نشانه CSRF به عنوان پارامتر POST، همچنین هدر درخواست X-CSRF-TOKEN  را بررسی می‌کند. می‌توانید نشانه را در یک تگ meta مربوط به HTML ذخیره کنید:
 </p>
 
-
-<pre><code class="language-php  line-numbers"><meta name="csrf-token" content="{% highlight scala %}{!! csrf_token() !!}">{% endhighlight %}
-</code></pre>
+```html
+<meta name="csrf-token" content="{% raw %}{{ csrf_token() }}{% endraw %}">
+```
 
 <p>
 زمانی که تگ meta را ایجاد کردید، می‌توانید به یک کتابخانه مانند jQuery بگویید که به صورت خودکار نشانه‌ها را به تمام هدرهای درخواست اضافه کند. این روش، یک محافظت ساده و روان CSRF برای برنامه‌های مبتنی بر AJAX فراهم می‌‌کند:

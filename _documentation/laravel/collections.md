@@ -223,7 +223,7 @@ $chunks->toArray();
 <pre><code class="language-php  line-numbers">@foreach ($products->chunk(3) as $chunk)
     <div class="row">
         @foreach ($chunk as $product)
-            <div class="col-xs-4">{!! $product->name !!}</div>
+            <div class="col-xs-4">{% raw %}{{ $product->name }}{% endraw %}</div>
         @endforeach
     </div>
 @endforeach</code></pre>

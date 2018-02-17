@@ -68,11 +68,12 @@ Route::any('foo', function () {
 هر فرم‌ HTML که به مسیرهای POST ، PUT یا DELETE که در فایل مسیرهای web تعریف شده‌اند، اشاره دارد، باید شامل یک فیلد نشانه CSRF باشند. در غیر این صورت، درخواست رد خواهد شد.
 </p>
 
-<pre><code class="language-php  line-numbers">{% highlight scala %}<form method="POST" action="/profile">
-    {!! csrf_field() !!}
+```html
+<form method="POST" action="/profile">
+    {% raw %}{{ csrf_field() }}{% endraw %}
     ...
-</form>{% endhighlight %}
-</code></pre>
+</form>
+```
 
 <p>
 <a name="redirect-routes"></a>
@@ -453,18 +454,19 @@ public function getRouteKeyName()
 فرم‌های HTML از عملیات PUT ، PATCH یا DELETE پشتیبانی نمی‌کنند. بنابراین، هنگام تعریف مسیرهای PUT ، PATCH یا DELETE که از یک فرم HTML فراخوانی می‌شوند، نیاز دارید یک فیلد _method مخفی را به فرم اضافه کنید. مقدار فرستاده شده با فیلد _method به عنوان متد درخواست HTTP مورد استفاده قرار می‌گیرد:
 </p>
 
-<pre><code class="language-php  line-numbers">{% highlight scala %}<form action="/foo/bar" method="POST">
+```html
+<form action="/foo/bar" method="POST">
     <input type="hidden" name="_method" value="PUT">
-    <input type="hidden" name="_token" value="{!! csrf_token() !!}">
+    <input type="hidden" name="_token" value="{% raw %}{{ csrf_token() }}{% endraw %}">
 </form>
-{% endhighlight %}</code></pre>
+```
 
 <p>
 می‌توانید از تابع کمکی method_field برای تولید فیلد _method استفاده کنید:
 </p>
 
-<pre><code class="language-php  line-numbers">{% highlight scala %} method_field('PUT')
-{% endhighlight %}</code></pre>
+<pre><code class="language-php  line-numbers"> method_field('PUT')
+</code></pre>
 
 <p>
 <a name="accessing-the-current-route"></a>

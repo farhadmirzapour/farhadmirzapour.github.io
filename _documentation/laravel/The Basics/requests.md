@@ -452,8 +452,9 @@ return redirect('form')->withInput(
 </p>
 
 
-<pre><code class="language-php  line-numbers">{% highlight scala %}<input type="text" name="username" value="{!! old('username') !!}">{% endhighlight %}
-</code></pre>
+```html
+<input type="text" name="username" value="{% raw %}{{ old('username') }}{% endraw %}">
+```
 
 
 <p>

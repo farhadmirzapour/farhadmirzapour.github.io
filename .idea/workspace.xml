@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ca62077-7c47-486a-90d9-36a917269049" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_documentation/laravel/The Basics/requests.md" afterPath="$PROJECT_DIR$/_documentation/laravel/The Basics/requests.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_documentation/laravel/Frontend/blade.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_documentation/laravel/Frontend/frontend.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_documentation/laravel/Frontend/localization.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_documentation/laravel/The Basics/errors.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_documentation/laravel/The Basics/responses.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_documentation/laravel/The Basics/session.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_documentation/laravel/The Basics/urls.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_documentation/laravel/The Basics/validation.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_documentation/laravel/The Basics/views.md" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/_documentation/laravel/The Basics/controllers.md" afterPath="$PROJECT_DIR$/_documentation/laravel/The Basics/controllers.md" />
+      <change beforePath="$PROJECT_DIR$/_documentation/laravel/The Basics/csrf.md" afterPath="$PROJECT_DIR$/_documentation/laravel/The Basics/csrf.md" />
+      <change beforePath="$PROJECT_DIR$/_documentation/laravel/The Basics/requests.md" afterPath="$PROJECT_DIR$/_documentation/laravel/The Basics/requests.md" />
+      <change beforePath="$PROJECT_DIR$/_documentation/laravel/The Basics/routing.md" afterPath="$PROJECT_DIR$/_documentation/laravel/The Basics/routing.md" />
+      <change beforePath="$PROJECT_DIR$/_documentation/laravel/collections.md" afterPath="$PROJECT_DIR$/_documentation/laravel/collections.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2017-12-13-laravelcollective.md" afterPath="$PROJECT_DIR$/_posts/2017-12-13-laravelcollective.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,23 +30,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="requests.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_documentation/laravel/The Basics/requests.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="360">
-                <caret line="716" column="3" lean-forward="false" selection-start-line="716" selection-start-column="3" selection-end-line="716" selection-end-column="3" />
-                <folding />
-              </first_editor>
-              <second_editor>
-                <js_state />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,11 +41,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&amp;nbsp;</find>
-      <find>landing</find>
-      <find>$home-landing-padding</find>
-      <find>doc-menu</find>
-      <find>ul</find>
       <find>.doc-container</find>
       <find>flatmap</find>
       <find>times</find>
@@ -68,7 +61,16 @@
       <find>&lt;h3&gt;</find>
       <find>bootstrap.js</find>
       <find>form</find>
+      <find>raw</find>
+      <find>{{{</find>
+      <find>}}}</find>
+      <find>{!</find>
       <find>{{</find>
+      <find>ایجاد Custom Component</find>
+      <find>highlight</find>
+      <find>{</find>
+      <find>{!!</find>
+      <find>}}</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -77,9 +79,14 @@
       <replace>a target=&quot;_blank&quot; href</replace>
       <replace>&lt;pre&gt;&lt;code class=&quot;language-php  line-numbers&quot;&gt;</replace>
       <replace>\n</replace>
+      <replace>}}</replace>
+      <replace>```</replace>
     </replaceStrings>
     <dirStrings>
       <dir>E:\farhadnote\_sass</dir>
+      <dir>E:\farhadnote\_posts</dir>
+      <dir>E:\farhadnote\_documentation</dir>
+      <dir>E:\farhadnote\_documentation\design-patterns</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -88,11 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/2017-10-20-psr.md" />
-        <option value="$PROJECT_DIR$/_documentation/solid-object-oriented-design/single-responsibility-principle.md" />
-        <option value="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/inheritance.md" />
-        <option value="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/polymorphism.md" />
-        <option value="$PROJECT_DIR$/_documentation/object-oriented-programming-in-php/abstract-class.md" />
         <option value="$PROJECT_DIR$/_posts/2017-10-31-object-oriented-programming-in-php.md" />
         <option value="$PROJECT_DIR$/_sass/layouts/_home.scss" />
         <option value="$PROJECT_DIR$/_documentation/solid-object-oriented-design/interface-segregation-principle.md" />
@@ -114,7 +116,6 @@
         <option value="$PROJECT_DIR$/_posts/2017-11-27-php-unit.md" />
         <option value="$PROJECT_DIR$/_documentation/PHPUnit/writing-tests-for-phpunit.md" />
         <option value="$PROJECT_DIR$/_posts/2017-12-06-design-patterns.md" />
-        <option value="$PROJECT_DIR$/_posts/2017-12-13-laravelcollective.md" />
         <option value="$PROJECT_DIR$/_posts/2017-11-10-laravel.md" />
         <option value="$PROJECT_DIR$/_documentation/laravel/menu.html" />
         <option value="$PROJECT_DIR$/_layouts/documentation.html" />
@@ -126,16 +127,25 @@
         <option value="$PROJECT_DIR$/_posts/2017-12-18-laravel.md" />
         <option value="$PROJECT_DIR$/_documentation/laravel/eloquent/eloquent-relationships.md" />
         <option value="$PROJECT_DIR$/_documentation/laravel/eloquent/eloquent-mutators.md" />
-        <option value="$PROJECT_DIR$/_documentation/laravel/collections.md" />
         <option value="$PROJECT_DIR$/_sass/layouts/_documentation.scss" />
         <option value="$PROJECT_DIR$/_documentation/laravel/eloquent/eloquent-collections.md" />
         <option value="$PROJECT_DIR$/_documentation/laravel/eloquent/eloquent-serialization.md" />
         <option value="$PROJECT_DIR$/_documentation/laravel/Architecture Concepts/lifecycle.md" />
-        <option value="$PROJECT_DIR$/_documentation/laravel/The Basics/routing.md" />
         <option value="$PROJECT_DIR$/_documentation/laravel/The Basics/middleware.md" />
+        <option value="$PROJECT_DIR$/_documentation/laravel/The Basics/session.md" />
+        <option value="$PROJECT_DIR$/_documentation/laravel/The Basics/urls.md" />
+        <option value="$PROJECT_DIR$/_documentation/laravel/The Basics/errors.md" />
+        <option value="$PROJECT_DIR$/_documentation/laravel/The Basics/blade.md" />
+        <option value="$PROJECT_DIR$/_documentation/laravel/The Basics/requests.md" />
+        <option value="$PROJECT_DIR$/_documentation/laravel/The Basics/views.md" />
+        <option value="$PROJECT_DIR$/_documentation/laravel/collections.md" />
         <option value="$PROJECT_DIR$/_documentation/laravel/The Basics/csrf.md" />
         <option value="$PROJECT_DIR$/_documentation/laravel/The Basics/controllers.md" />
-        <option value="$PROJECT_DIR$/_documentation/laravel/The Basics/requests.md" />
+        <option value="$PROJECT_DIR$/_documentation/laravel/The Basics/responses.md" />
+        <option value="$PROJECT_DIR$/_documentation/laravel/The Basics/validation.md" />
+        <option value="$PROJECT_DIR$/_posts/2017-12-13-laravelcollective.md" />
+        <option value="$PROJECT_DIR$/_documentation/laravel/The Basics/routing.md" />
+        <option value="$PROJECT_DIR$/_documentation/laravel/Frontend/localization.md" />
       </list>
     </option>
   </component>
@@ -191,7 +201,7 @@
               <item name="farhadnote" type="462c0819:PsiDirectoryNode" />
               <item name="_documentation" type="462c0819:PsiDirectoryNode" />
               <item name="laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="The Basics" type="462c0819:PsiDirectoryNode" />
+              <item name="Frontend" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -209,14 +219,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\farhadnote\_documentation\laravel\Frontend" />
       <recent name="E:\farhadnote\_includes" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\farhadnote\_documentation\laravel\Frontend" />
       <recent name="E:\farhadnote\_documentation\laravel\The Basics" />
       <recent name="E:\farhadnote\_documentation\laravel\Architecture Concepts" />
       <recent name="E:\farhadnote\_documentation\laravel\eloquent" />
       <recent name="E:\farhadnote\_documentation\laravel\database" />
-      <recent name="E:\farhadnote\_layouts\laravel" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -233,6 +244,9 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -292,17 +306,35 @@
       <workItem from="1517553517205" duration="4587000" />
       <workItem from="1517678151964" duration="1566000" />
       <workItem from="1517851337991" duration="2976000" />
+      <workItem from="1518113110551" duration="112000" />
+      <workItem from="1518114153247" duration="125000" />
+      <workItem from="1518151572346" duration="2477000" />
+      <workItem from="1518173791336" duration="1558000" />
+      <workItem from="1518283713177" duration="644000" />
+      <workItem from="1518284387289" duration="1802000" />
+      <workItem from="1518289022238" duration="15000" />
+      <workItem from="1518329151328" duration="6305000" />
+      <workItem from="1518363825076" duration="5081000" />
+      <workItem from="1518370291531" duration="1459000" />
+      <workItem from="1518381399616" duration="193000" />
+      <workItem from="1518465006956" duration="699000" />
+      <workItem from="1518538770606" duration="7259000" />
+      <workItem from="1518765359742" duration="3581000" />
+      <workItem from="1518778489199" duration="26000" />
+      <workItem from="1518787628633" duration="6930000" />
+      <workItem from="1518848509730" duration="52000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="334120000" />
+    <option name="totallyTimeSpent" value="372438000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24553572" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24553572" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -330,99 +362,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_documentation/solid-object-oriented-design/interface-segregation-principle.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="407">
-            <caret line="52" column="3" lean-forward="true" selection-start-line="52" selection-start-column="3" selection-end-line="52" selection-end-column="3" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_documentation/solid-object-oriented-design/dependency-inversion-principle.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="180">
-            <caret line="9" column="163" lean-forward="false" selection-start-line="9" selection-start-column="163" selection-end-line="9" selection-end-column="163" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_documentation/solid-object-oriented-design/open-closed-principle.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="220">
-            <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/refrence.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_documentation/solid-object-oriented-design/single-responsibility-principle.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="325">
-            <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="13" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/includes/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-583">
-          <caret line="208" column="6" lean-forward="false" selection-start-line="208" selection-start-column="6" selection-end-line="208" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-11-10-solid-object-oriented-design.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="200">
-            <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_documentation/solid-object-oriented-design/liskov-substitution-principle.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="140">
-            <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="20" selection-end-column="13" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2017-11-09-composer-autoloading.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -650,18 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_documentation/laravel/database/queries.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="240">
-            <caret line="840" column="0" lean-forward="false" selection-start-line="840" selection-start-column="0" selection-end-line="840" selection-end-column="46" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -712,19 +639,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="-3017">
             <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_documentation/laravel/collections.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="380">
-            <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="3" />
-            <folding />
           </first_editor>
           <second_editor>
             <js_state />
@@ -804,11 +718,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-12-13-laravelcollective.md">
+    <entry file="file://$PROJECT_DIR$/_documentation/laravel/The Basics/middleware.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="200">
-            <caret line="365" column="67" lean-forward="false" selection-start-line="365" selection-start-column="46" selection-end-line="365" selection-end-column="67" />
+          <first_editor relative-caret-position="149">
+            <caret line="177" column="0" lean-forward="false" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="46" />
           </first_editor>
           <second_editor>
             <js_state />
@@ -816,11 +730,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_documentation/laravel/The Basics/middleware.md">
+    <entry file="file://$PROJECT_DIR$/_documentation/laravel/The Basics/session.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="159">
+            <caret line="306" column="0" lean-forward="false" selection-start-line="306" selection-start-column="0" selection-end-line="306" selection-end-column="46" />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_documentation/laravel/The Basics/urls.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="120">
+            <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="46" />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_documentation/laravel/The Basics/views.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="300">
+            <caret line="24" column="7" lean-forward="false" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_documentation/laravel/collections.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="149">
-            <caret line="177" column="0" lean-forward="false" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="46" />
+            <caret line="225" column="59" lean-forward="false" selection-start-line="225" selection-start-column="45" selection-end-line="225" selection-end-column="59" />
             <folding />
           </first_editor>
           <second_editor>
@@ -832,9 +782,8 @@
     <entry file="file://$PROJECT_DIR$/_documentation/laravel/The Basics/csrf.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="280">
-            <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="46" />
-            <folding />
+          <first_editor relative-caret-position="191">
+            <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           </first_editor>
           <second_editor>
             <js_state />
@@ -845,8 +794,32 @@
     <entry file="file://$PROJECT_DIR$/_documentation/laravel/The Basics/controllers.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="600">
-            <caret line="619" column="0" lean-forward="false" selection-start-line="619" selection-start-column="0" selection-end-line="619" selection-end-column="46" />
+          <first_editor relative-caret-position="178">
+            <caret line="320" column="70" lean-forward="false" selection-start-line="320" selection-start-column="58" selection-end-line="320" selection-end-column="70" />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_documentation/laravel/The Basics/responses.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="229">
+            <caret line="325" column="0" lean-forward="false" selection-start-line="325" selection-start-column="0" selection-end-line="325" selection-end-column="0" />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_documentation/laravel/Frontend/blade.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="178">
+            <caret line="243" column="7" lean-forward="false" selection-start-line="243" selection-start-column="7" selection-end-line="243" selection-end-column="7" />
             <folding />
           </first_editor>
           <second_editor>
@@ -858,9 +831,32 @@
     <entry file="file://$PROJECT_DIR$/_documentation/laravel/The Basics/routing.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="309">
-            <caret line="459" column="0" lean-forward="false" selection-start-line="459" selection-start-column="0" selection-end-line="459" selection-end-column="18" />
-            <folding />
+          <first_editor relative-caret-position="178">
+            <caret line="467" column="66" lean-forward="false" selection-start-line="467" selection-start-column="47" selection-end-line="467" selection-end-column="66" />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-12-13-laravelcollective.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="498">
+            <caret line="390" column="0" lean-forward="true" selection-start-line="390" selection-start-column="0" selection-end-line="390" selection-end-column="0" />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_documentation/laravel/The Basics/validation.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="168">
+            <caret line="449" column="103" lean-forward="false" selection-start-line="449" selection-start-column="91" selection-end-line="449" selection-end-column="103" />
           </first_editor>
           <second_editor>
             <js_state />
@@ -871,8 +867,57 @@
     <entry file="file://$PROJECT_DIR$/_documentation/laravel/The Basics/requests.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="360">
-            <caret line="716" column="3" lean-forward="false" selection-start-line="716" selection-start-column="3" selection-end-line="716" selection-end-column="3" />
+          <first_editor relative-caret-position="169">
+            <caret line="455" column="84" lean-forward="false" selection-start-line="455" selection-start-column="72" selection-end-line="455" selection-end-column="84" />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_documentation/laravel/database/queries.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="240">
+            <caret line="840" column="0" lean-forward="false" selection-start-line="840" selection-start-column="0" selection-end-line="840" selection-end-column="46" />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_documentation/laravel/The Basics/errors.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="271">
+            <caret line="313" column="0" lean-forward="false" selection-start-line="313" selection-start-column="0" selection-end-line="313" selection-end-column="46" />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_documentation/laravel/Frontend/frontend.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="2360">
+            <caret line="118" column="19" lean-forward="false" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_documentation/laravel/Frontend/localization.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="340">
+            <caret line="139" column="106" lean-forward="false" selection-start-line="139" selection-start-column="106" selection-end-line="139" selection-end-column="106" />
             <folding />
           </first_editor>
           <second_editor>

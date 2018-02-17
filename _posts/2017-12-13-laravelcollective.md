@@ -47,9 +47,9 @@ Laravel Collective جهت ایجاد فرم های ایمن و سریع در ف�
 <br>
 <h3>ایجاد Form</h3>
 
-<pre><code class="language-php  line-numbers">{!! Form::open(['url' => 'foo/bar']) !!}
+<pre><code class="language-php  line-numbers">{% raw %}{{{% endraw %} Form::open(['url' => 'foo/bar']) {% raw %}}}{% endraw %}
     //
-{!! Form::close() !!}
+{% raw %}{{ Form::close() }}{% endraw %}
 </code></pre>
 
 
@@ -321,11 +321,12 @@ echo Form::radio('name', 'value', true);
 </p>
 <p>جهت ایجاد Macro  همانند زیر عمل می کنیم :</p>
 
-<pre><code class="language-php  line-numbers">Form::macro('myField', function()
+```html
+Form::macro('myField', function()
 {
-{% highlight scala %}return '<input type="awesome">';{% endhighlight %}
+    return '<input type="awesome">';
 });
-</code></pre>
+```
 
 <p>هم اکنون با استفاده از نام Macro  می توانیم آنرا فراخوانی کنیم :</p>
 
@@ -347,12 +348,14 @@ component  شبیه macro  های سفارشی می باشند با این تف�
 <p>
 برای مثال فرض کنید یک view  مانند زیر داشته باشیم :
 </p>
-<pre><code class="language-php  line-numbers">// resources/views/components/form/text.blade.php
-{% highlight scala %}<div class="form-group">
-    {!! Form::label($name, null, ['class' => 'control-label']) !!}
-    {!! Form::text($name, $value, array_merge(['class' => 'form-control'], $attributes)) !!}
-</div>{% endhighlight %}
-</code></pre>
+
+```html
+// resources/views/components/form/text.blade.php
+<div class="form-group">
+    {% raw %}{{{% endraw %} Form::label($name, null, ['class' => 'control-label']) {% raw %}}}{% endraw %}
+    {% raw %}{{{% endraw %} Form::text($name, $value, array_merge(['class' => 'form-control'], $attributes)) {% raw %}}}{% endraw %}
+</div>
+```
 
 <p>آنگاه جهت ثبت آن بصورت component  خواهیم داشت :</p>
 
@@ -363,15 +366,18 @@ component  شبیه macro  های سفارشی می باشند با این تف�
 و برای فراخوانی components  ثبت شده :
 </p>
 
-<pre><code class="language-php  line-numbers">{% highlight scala %}{!! Form::bsText('first_name') !!}{% endhighlight %}
-</code></pre>
+```html
+{% raw %}{{{% endraw %} Form::bsText('first_name') {% raw %}}}{% endraw %}
+```
 
 <p>که خروجی آن HTML  موجود در view  مشخص شده می باشد :</p>
 
-<pre><code class="language-html  line-numbers">{% highlight scala %}<div class="form-group">
+```html
+<div class="form-group">
     <label for="first_name">First Name</label>
     <input type="text" name="first_name" value="" class="form-control">
-</div>{% endhighlight %}</code></pre>
+</div>
+```
 
 
 <br>
