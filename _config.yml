@@ -21,8 +21,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: farhadmirzapour
 github_username:  farhadmirzapour
-
+author: Farhad Mirzapour
 # Build settings
+encoding: UTF-8
 markdown: kramdown
 
 highlighter: rouge
@@ -31,7 +32,11 @@ logo: /assets/img/logo/farhadmirzapour-logo.png
 kramdown:
   input: GFM
   hard_wrap: false
-
+  math_engine: mathjax
+  syntax_highlighter: rouge
+future: true
+jailed: false
+ 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -40,6 +45,12 @@ plugins:
   - mini_magick
   - jekyll-minimagick
   - jekyll-paginate
+  - jekyll-titles-from-headings
+  - jekyll-relative-links
+  - jekyll-mentions
+  - jekyll-include-cache
+  - jemoji
+  - jekyll-redirect-from
 sass:
   style: compressed
 
@@ -55,6 +66,9 @@ social:
   links:
     - https://twitter.com/farhadmirzapour
     - https://github.com/farhadmirzapour
+    - https://www.facebook.com/f.mirzapour
+    - https://www.instagram.com/farhad.mirzapour/
+    - https://www.linkedin.com/in/farhad-mirzapour/
 
 logo: /assets/img/logo/blankspace-avatar.png
 paginate: 8
@@ -75,15 +89,15 @@ twitter:
 #   - vendor/ruby/
 
 # mini_magick for thumbnail
-mini_magick:
-    thumbnail:
-        source: images/original
-        destination: images/thumbnail
-        resize: "200x200"
-    medium:
-        source: images/original
-        destination: images/medium
-        resize: "600x400"
+#mini_magick:
+#    thumbnail:
+#        source: images/original
+#        destination: images/thumbnail
+#        resize: "200x200"
+#    medium:
+#        source: images/original
+#        destination: images/medium
+#        resize: "600x400"
 # Site menu settings		
 menu:
   - title: "مقالات"
@@ -91,21 +105,14 @@ menu:
   - title: "تماس"
     url: "/contactus"
 # End
+# jekyll-titles-from-headings
+titles_from_headings:
+  enabled:     true
+  strip_title: false
+  collections: false
 # Collections settings
 collections:
   documentation:
     output: true
     permalink: /:collection/:path
 # End
-category_order:
-  - 'Getting-started'
-  - 'Fundamentals'
-  - 'Platform specifics'
-  - 'Presenters'
-  - 'Plugins'
-  - 'Testing'
-  - 'Samples'
-  - 'Upgrading'
-  - 'TipCalc Tutorial'
-  - 'Contributing'
-  - 'Licensing'
