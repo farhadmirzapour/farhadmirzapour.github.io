@@ -1,0 +1,14 @@
+# Site navigation links
+
+- title: معماری Laravel
+  directory : laravel/Architecture-Concepts
+- title: مفاهیم اساسی
+  directory : laravel/The-Basics
+- title: Front End
+  directory : laravel/Frontend
+- title: مفاهیم پیشرفته تر
+  directory : laravel/Digging-Deeper
+- title: پایگاه داده ها
+  directory : laravel/Database
+- title: Eloquent ORM
+  directory: laravel/Eloquent-ORM

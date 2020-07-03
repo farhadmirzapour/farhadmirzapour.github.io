@@ -29,9 +29,10 @@
       padding-right: 20px;
       margin-top: 10px;
       margin-bottom: 25px;
-
+      text-align: right;
       li{
         padding-bottom: 10px;
+        text-align: right;
       }
       a {
         color: lighten($text-color, 25%);

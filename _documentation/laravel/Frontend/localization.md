@@ -1,12 +1,12 @@
 ---
-layout: documentation
+layout: documentation-laravel
 title:   اصول localization
 cattitle: اصول آموزش Laravel
 date:   2018-02-16 18:36:42 +0330
 jdate: جمعه 27 بهمن 1396
 caturl: 2017/12/18/laravel.html
 #  permalink: /:categories/:title.html
-directory : laravel
+directory : laravel/Frontend
 menu : false
 thumbnail: laravel.png
 refrence: https://laravel.com/docs/5.6/localization <br> www.tahlildadeh.com/ArticleDetails/آموزش-Localization-در-لاراول

@@ -1,0 +1,29 @@
+<div class="doc-menu">
+    {% if page.menu == true %}
+    {% include  {{ page.directory }}/menu.html %}
+    {% else %}
+    <ul>
+        <li>
+            <a  href="{{ page.caturl | relative_url }}" class="active doc-link" role="link">
+                مقدمه
+            </a>
+        </li>
+        {% for link in site.data.navigation_vue %}
+        <li>
+            <span class="caret">{{ link.title }}</span>
+            <ul>
+        {% for item in site.documentation %}
+        {% if item.directory == link.directory %}
+        <li>
+            <a title="{{ item.title }}" href="{{ item.url | relative_url }}" class="active doc-link" role="link">
+                {{ item.title }}
+            </a>
+        </li>
+        {% endif %}
+        {% endfor %}
+            </ul>
+        </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</div>

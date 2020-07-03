@@ -1,0 +1,30 @@
+---
+layout: default
+typepage: document
+---
+<div class="rcdoccontainerimg">
+{% include headerpost.html %}
+</div>
+<div class="doc-container">
+
+    {% include sub-menu-vue.html %}
+
+    <article class="documentation">
+        <header class="doc-header">
+            <div class="time">
+                    تاریخ :      {{ page.jdate}}
+            </div>
+                {% if page.author %}
+                • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+                {% endif %}
+        </header>
+        <section class="anchored">
+            {{ content }}
+        </section>
+        {% include refrence.html %}
+        <hr>
+        {% include comments.html %}
+    </article>
+</div>
+{% include deeplink.html %}
+{% include doc-scroll.html %}

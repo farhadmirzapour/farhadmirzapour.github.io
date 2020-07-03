@@ -3,7 +3,7 @@ layout: default
 typepage: document
 ---
 <div class="rcdoccontainerimg">
-{% include headerpost.html %}
+    {% include headerpost.html %}
 </div>
 <div class="doc-container">
 
@@ -17,15 +17,15 @@ typepage: document
                     مقدمه
                 </a>
             </li>
-        {% for item in site.documentation %}
+            {% for item in site.documentation %}
             {% if item.caturl == page.caturl %}
             <li>
-                 <a title="{{ item.title }}" href="{{ item.url | relative_url }}" class="active doc-link" role="link">
-                     {{ item.title }}
-                 </a>
+                <a title="{{ item.title }}" href="{{ item.url | relative_url }}" class="active doc-link" role="link">
+                    {{ item.title }}
+                </a>
             </li>
             {% endif %}
-        {% endfor %}
+            {% endfor %}
         </ul>
         {% endif %}
     </div>
@@ -33,11 +33,11 @@ typepage: document
     <article class="documentation">
         <header class="doc-header">
             <div class="time">
-                    تاریخ :      {{ page.jdate}}
+                تاریخ :      {{ page.jdate}}
             </div>
-                {% if page.author %}
-                • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
-                {% endif %}
+            {% if page.author %}
+            • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+            {% endif %}
         </header>
         <section class="anchored">
             {{ content }}

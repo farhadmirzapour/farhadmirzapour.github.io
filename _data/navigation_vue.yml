@@ -1,0 +1,7 @@
+# Site navigation links
+
+- title: مفاهیم اساسی
+  directory : vuejs/Essentials
+- title: کامپوننت ها
+  directory : vuejs/Components-In-Depth
+

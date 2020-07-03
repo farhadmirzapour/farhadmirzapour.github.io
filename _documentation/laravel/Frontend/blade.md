@@ -1,12 +1,12 @@
 ---
-layout: documentation
+layout: documentation-laravel
 title:   Blade Templates
 cattitle: اصول آموزش Laravel
 date:   2018-02-13 19:50:42 +0330
 jdate: سه شنبه 24 بهمن 1396
 caturl: 2017/12/18/laravel.html
 #  permalink: /:categories/:title.html
-directory : laravel
+directory : laravel/Frontend
 menu : false
 thumbnail: laravel.png
 refrence: https://laravel.com/docs/5.6/blade <br> https://www.lydaweb.com/article/courses/laravel-5-5-tutorial/288/blade-template-لاراول-5-5
